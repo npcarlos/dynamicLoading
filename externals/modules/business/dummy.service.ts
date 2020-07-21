@@ -9,9 +9,27 @@ export class DummyService {
   
   darInformacionPlanes(){
     const planes = [
-      {name: "Plan 50GB"},
-      {name: "Plan 120GB"},
-      {name: "Plan 100GB"}
+      {
+        datosMoviles: "1 GB",
+        nombrePlan: "Plan 1",
+        precioPlan: "30.000",
+        mensajesPlan: "ilimitado",
+        minutosPlan: "ilimitado",
+      },
+      {
+        datosMoviles: "8 GB",
+        nombrePlan: "Plan 2",
+        precioPlan: "50.000",
+        mensajesPlan: "ilimitado",
+        minutosPlan: "ilimitado",
+      },
+      {
+        datosMoviles: "15 GB",
+        nombrePlan: "Plan 3",
+        precioPlan: "100.000",
+        mensajesPlan: "ilimitado",
+        minutosPlan: "ilimitado",
+      }
     ]
     return planes;
   }
