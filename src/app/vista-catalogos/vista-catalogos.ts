@@ -1,20 +1,15 @@
 import { Component, Input, OnInit, ViewChild, ComponentFactoryResolver, OnDestroy } from '@angular/core';
 
-import { AdDirective } from './ad.directive';
-import { AdItem }      from './ad-item';
-import { AdComponent } from './ad.component';
+import { AdDirective } from '../ad.directive';
+import { CatalogoComponent }      from '../catalogo';
+import { AdComponent } from '../ad.component';
 
 @Component({
   selector: 'app-ad-banner',
-  template: `
-              <div class="ad-banner-example">
-                <h3>Advertisements</h3>
-                <ng-template ad-host></ng-template>
-              </div>
-            `
+  templateUrl: './vista-catalogos.component.html',
 })
-export class AdBannerComponent implements OnInit, OnDestroy {
-  @Input() ads: AdItem[];
+export class VistaCatalogosComponent implements OnInit, OnDestroy {
+  @Input() catalogos: CatalogoComponent[];
   currentAdIndex = -1;
   @ViewChild(AdDirective, {static: true}) adHost: AdDirective;
   interval: any;
@@ -23,7 +18,7 @@ export class AdBannerComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     this.loadComponent();
-    this.getAds();
+    this.getCatalogos();
   }
 
   ngOnDestroy() {
@@ -31,8 +26,8 @@ export class AdBannerComponent implements OnInit, OnDestroy {
   }
 
   loadComponent() {
-    this.currentAdIndex = (this.currentAdIndex + 1) % this.ads.length;
-    const adItem = this.ads[this.currentAdIndex];
+    this.currentAdIndex = (this.currentAdIndex + 1) % this.catalogos.length;
+    const adItem = this.catalogos[this.currentAdIndex];
 
     const componentFactory = this.componentFactoryResolver.resolveComponentFactory(adItem.component);
 
@@ -43,7 +38,7 @@ export class AdBannerComponent implements OnInit, OnDestroy {
     (<AdComponent>componentRef.instance).data = adItem.data;
   }
 
-  getAds() {
+  getCatalogos() {
     this.interval = setInterval(() => {
       this.loadComponent();
     }, 3000);
