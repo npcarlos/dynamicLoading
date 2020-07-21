@@ -5,13 +5,13 @@ import { CatalogoComponent }      from '../catalogo';
 import { CatalogoTemplate } from '../catalogo.component';
 
 @Component({
-  selector: 'app-ad-banner',
+  selector: 'app-catalogo-banner',
   templateUrl: './vista-catalogos.component.html',
 })
 export class VistaCatalogosComponent implements OnInit, OnDestroy {
   @Input() catalogos: CatalogoComponent[];
-  currentAdIndex = -1;
-  @ViewChild(CatalogoDirective, {static: true}) adHost: CatalogoDirective;
+  currentCatalogoIndex = -1;
+  @ViewChild(CatalogoDirective, {static: true}) catalogoHost: CatalogoDirective;
   interval: any;
 
   constructor(private componentFactoryResolver: ComponentFactoryResolver) { }
@@ -26,16 +26,16 @@ export class VistaCatalogosComponent implements OnInit, OnDestroy {
   }
 
   loadComponent() {
-    this.currentAdIndex = (this.currentAdIndex + 1) % this.catalogos.length;
-    const adItem = this.catalogos[this.currentAdIndex];
+    this.currentCatalogoIndex = (this.currentCatalogoIndex + 1) % this.catalogos.length;
+    const catalogoItem = this.catalogos[this.currentCatalogoIndex];
 
-    const componentFactory = this.componentFactoryResolver.resolveComponentFactory(adItem.component);
+    const componentFactory = this.componentFactoryResolver.resolveComponentFactory(catalogoItem.component);
 
-    const viewContainerRef = this.adHost.viewContainerRef;
+    const viewContainerRef = this.catalogoHost.viewContainerRef;
     viewContainerRef.clear();
 
     const componentRef = viewContainerRef.createComponent(componentFactory);
-    (<CatalogoTemplate>componentRef.instance).data = adItem.data;
+    (<CatalogoTemplate>componentRef.instance).data = catalogoItem.data;
   }
 
   getCatalogos() {

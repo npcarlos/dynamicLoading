@@ -7,17 +7,17 @@ import { CatalogoComponent }            from './catalogo';
   selector: 'app-root',
   template: `
     <div>
-      <app-ad-banner [catalogos]="ads"></app-ad-banner>
+      <app-catalogo-banner [catalogos]="catalogos"></app-catalogo-banner>
     </div>
   `
 })
 export class AppComponent implements OnInit {
-  ads: CatalogoComponent[];
+  catalogos: CatalogoComponent[];
 
   constructor(private catalogoService: CatalogoService) {}
 
   ngOnInit() {
-    this.ads = this.catalogoService.getAds();
+    this.catalogos = this.catalogoService.getAds();
   }
 }
 
