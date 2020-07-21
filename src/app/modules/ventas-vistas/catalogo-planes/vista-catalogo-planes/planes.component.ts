@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 
-import { CatalogoTemplate }      from '../catalogo.component';
+import { CatalogoTemplate }      from '../../../../catalogo.component';
 
 @Component({
   templateUrl: './planes.component.html',
