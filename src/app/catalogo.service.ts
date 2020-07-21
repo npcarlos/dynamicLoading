@@ -5,7 +5,7 @@ import { EquiposComponent } from './equipos/equipos.component';
 import { CatalogoComponent }               from './catalogo';
 
 @Injectable()
-export class AdService {
+export class CatalogoService {
   getAds() {
     return [
       new CatalogoComponent(EquiposComponent, {name: 'Bombasto', bio: 'Brave as they come'}),

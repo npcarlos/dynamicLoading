@@ -1,11 +1,11 @@
 import { Component, Input } from '@angular/core';
 
-import { AdComponent }      from '../ad.component';
+import { CatalogoTemplate }      from '../catalogo.component';
 
 @Component({
   templateUrl: './planes.component.html',
 })
-export class PlanesComponent implements AdComponent {
+export class PlanesComponent implements CatalogoTemplate {
   @Input() data: any;
 
 }

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { AdService }         from './ad.service';
+import { CatalogoService }         from './catalogo.service';
 import { CatalogoComponent }            from './catalogo';
 
 @Component({
@@ -14,10 +14,10 @@ import { CatalogoComponent }            from './catalogo';
 export class AppComponent implements OnInit {
   ads: CatalogoComponent[];
 
-  constructor(private adService: AdService) {}
+  constructor(private catalogoService: CatalogoService) {}
 
   ngOnInit() {
-    this.ads = this.adService.getAds();
+    this.ads = this.catalogoService.getAds();
   }
 }
 

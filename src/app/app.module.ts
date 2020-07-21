@@ -4,17 +4,17 @@ import { AppComponent }         from './app.component';
 import { PlanesComponent }   from './planes/planes.component';
 import { VistaCatalogosComponent }    from './vista-catalogos/vista-catalogos';
 import { EquiposComponent } from './equipos/equipos.component';
-import { AdDirective }          from './ad.directive';
-import { AdService }            from './ad.service';
+import { CatalogoDirective }          from './catalogo.directive';
+import { CatalogoService }            from './catalogo.service';
 
 @NgModule({
   imports: [ BrowserModule ],
-  providers: [AdService],
+  providers: [CatalogoService],
   declarations: [ AppComponent,
                   VistaCatalogosComponent,
                   PlanesComponent,
                   EquiposComponent,
-                  AdDirective ],
+                  CatalogoDirective ],
   entryComponents: [ PlanesComponent, EquiposComponent ],
   bootstrap: [ AppComponent ]
 })

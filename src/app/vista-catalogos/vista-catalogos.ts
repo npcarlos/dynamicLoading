@@ -1,8 +1,8 @@
 import { Component, Input, OnInit, ViewChild, ComponentFactoryResolver, OnDestroy } from '@angular/core';
 
-import { AdDirective } from '../ad.directive';
+import { CatalogoDirective } from '../catalogo.directive';
 import { CatalogoComponent }      from '../catalogo';
-import { AdComponent } from '../ad.component';
+import { CatalogoTemplate } from '../catalogo.component';
 
 @Component({
   selector: 'app-ad-banner',
@@ -11,7 +11,7 @@ import { AdComponent } from '../ad.component';
 export class VistaCatalogosComponent implements OnInit, OnDestroy {
   @Input() catalogos: CatalogoComponent[];
   currentAdIndex = -1;
-  @ViewChild(AdDirective, {static: true}) adHost: AdDirective;
+  @ViewChild(CatalogoDirective, {static: true}) adHost: CatalogoDirective;
   interval: any;
 
   constructor(private componentFactoryResolver: ComponentFactoryResolver) { }
@@ -35,7 +35,7 @@ export class VistaCatalogosComponent implements OnInit, OnDestroy {
     viewContainerRef.clear();
 
     const componentRef = viewContainerRef.createComponent(componentFactory);
-    (<AdComponent>componentRef.instance).data = adItem.data;
+    (<CatalogoTemplate>componentRef.instance).data = adItem.data;
   }
 
   getCatalogos() {
