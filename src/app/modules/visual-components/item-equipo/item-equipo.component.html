@@ -1,0 +1,14 @@
+<div class="item-catalogo shadow">
+  <div class="card-header normal-title">
+    <h4 class="red-tilte text-center">{{ name }}</h4>
+  </div>
+  <div class="card-body">
+    <div class="image-container">
+      <img [src]="image" [alt]="name" />
+    </div>
+    <div class="info-buttons">
+      <button class="btn red-border" (click)="mostrar()">Ver detalle</button>
+      <button class="btn red-background" (click)="agregar()">Añadir al carrito</button>
+    </div>
+  </div>
+</div>
