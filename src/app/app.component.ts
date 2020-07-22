@@ -1,23 +1,22 @@
 import { Component, OnInit } from '@angular/core';
 
-import { CatalogoService }         from './catalogo.service';
-import { CatalogoComponent }            from './catalogo';
+import { CatalogoService }         from '../../externals/modules/business/dummy/catalogo.service';
+import { CatalogoItem }            from './catalogo-item';
+import { TipoCatalogoModel } from 'externals/libraries/domain/fullstack/catalogo';
 
 @Component({
   selector: 'app-root',
-  template: `
-    <div>
-      <app-catalogo-banner [catalogos]="catalogos"></app-catalogo-banner>
-    </div>
-  `
+  templateUrl: './app.component.html'
 })
 export class AppComponent implements OnInit {
-  catalogos: CatalogoComponent[];
+  catalogos: CatalogoItem[];
+  tiposCatalogos: TipoCatalogoModel[];
 
   constructor(private catalogoService: CatalogoService) {}
 
   ngOnInit() {
     this.catalogos = this.catalogoService.getAds();
+    this.tiposCatalogos = this.catalogoService.getTipoCatalogos();
   }
 }
 
