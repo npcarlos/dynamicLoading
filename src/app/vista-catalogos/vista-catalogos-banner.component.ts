@@ -1,15 +1,15 @@
 import { Component, Input, OnInit, ViewChild, ComponentFactoryResolver, OnDestroy } from '@angular/core';
 
 import { CatalogoDirective } from '../catalogo.directive';
-import { CatalogoComponent }      from '../catalogo';
+import { CatalogoItem }      from '../catalogo-item';
 import { CatalogoTemplate } from '../catalogo.component';
 
 @Component({
   selector: 'app-catalogo-banner',
-  templateUrl: './vista-catalogos.component.html',
+  templateUrl: './vista-catalogos-banner.component.html',
 })
-export class VistaCatalogosComponent implements OnInit, OnDestroy {
-  @Input() catalogos: CatalogoComponent[];
+export class VistaCatalogosBannerComponent implements OnInit, OnDestroy {
+  @Input() catalogos: CatalogoItem[];
   currentCatalogoIndex = -1;
   @ViewChild(CatalogoDirective, {static: true}) catalogoHost: CatalogoDirective;
   interval: any;

@@ -2,7 +2,7 @@ import { BrowserModule }        from '@angular/platform-browser';
 import { NgModule }             from '@angular/core';
 import { AppComponent }         from './app.component';
 import { PlanesComponent }   from './modules/ventas-vistas/catalogo-planes/vista-catalogo-planes/planes.component';
-import { VistaCatalogosComponent }    from './vista-catalogos/vista-catalogos';
+import { VistaCatalogosBannerComponent }    from './vista-catalogos/vista-catalogos-banner.component';
 import { EquiposComponent } from './modules/ventas-vistas/catalogo-equipos/vista-catalogo-equipos/equipos.component';
 import { CatalogoDirective }          from './catalogo.directive';
 import { CatalogoService }            from './catalogo.service';
@@ -11,7 +11,7 @@ import { CatalogoService }            from './catalogo.service';
   imports: [ BrowserModule ],
   providers: [CatalogoService],
   declarations: [ AppComponent,
-                  VistaCatalogosComponent,
+                  VistaCatalogosBannerComponent,
                   PlanesComponent,
                   EquiposComponent,
                   CatalogoDirective ],

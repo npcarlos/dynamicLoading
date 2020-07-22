@@ -1,18 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 
 import { CatalogoService }         from './catalogo.service';
-import { CatalogoComponent }            from './catalogo';
+import { CatalogoItem }            from './catalogo-item';
 
 @Component({
   selector: 'app-root',
-  template: `
-    <div>
-      <app-catalogo-banner [catalogos]="catalogos"></app-catalogo-banner>
-    </div>
-  `
+  templateUrl: './app.component.html'
 })
 export class AppComponent implements OnInit {
-  catalogos: CatalogoComponent[];
+  catalogos: CatalogoItem[];
 
   constructor(private catalogoService: CatalogoService) {}
 
