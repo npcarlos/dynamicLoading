@@ -11,21 +11,22 @@ import { TipoCatalogoModel } from 'externals/libraries/domain/fullstack/catalogo
 })
 export class VistaCatalogosBannerComponent implements OnInit, OnDestroy {
   @Input() catalogos: CatalogoItem[];
-  @Input() tiposCatalogos: TipoCatalogoModel[];
+  //@Input() tiposCatalogos: TipoCatalogoModel[];
+  @Input() catalogoActual: TipoCatalogoModel;
   currentCatalogoIndex = -1;
   @ViewChild(CatalogoDirective, {static: true}) catalogoHost: CatalogoDirective;
-  interval: any;
+  // interval: any;
 
   constructor(private componentFactoryResolver: ComponentFactoryResolver) { }
 
   ngOnInit() {
-    this.loadComponent();
-    this.getCatalogos();
+    //this.loadComponent();
+    // this.getCatalogos();
     this.darTiposCatalogos();
   }
 
   ngOnDestroy() {
-    clearInterval(this.interval);
+    // clearInterval(this.interval);
   }
 
   loadComponent() {
@@ -41,14 +42,14 @@ export class VistaCatalogosBannerComponent implements OnInit, OnDestroy {
     (<CatalogoTemplate>componentRef.instance).data = catalogoItem.data;
   }
 
-  getCatalogos() {
-    this.interval = setInterval(() => {
-      this.loadComponent();
-    }, 3000);
-  }
+  // getCatalogos() {
+  //   this.interval = setInterval(() => {
+  //     this.loadComponent();
+  //   }, 3000);
+  // }
 
   darTiposCatalogos()
   {
-    console.log(this.tiposCatalogos)
+    //console.log(this.tiposCatalogos)
   }
 }
