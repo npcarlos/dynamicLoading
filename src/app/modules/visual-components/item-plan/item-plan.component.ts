@@ -1,11 +1,13 @@
-import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { ItemTemplate } from '../item.interface';
 
 @Component({
   selector: 'app-item-plan',
   templateUrl: './item-plan.component.html',
   styleUrls: ['./item-plan.component.scss'],
 })
-export class ItemPlanComponent implements OnInit {
+export class ItemPlanComponent implements ItemTemplate {
+  public data: any;
   @Output() onMostrar = new EventEmitter<null>();
   @Output() onAgregar = new EventEmitter<null>();
   @Input() datosMoviles: string;

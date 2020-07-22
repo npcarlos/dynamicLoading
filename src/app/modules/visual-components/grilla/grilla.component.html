@@ -1,0 +1,47 @@
+<div class="row mb-1 justify-content-between">
+  <div class="col-12 col-lg-8">
+    <div class="row">
+      <div class="col-md my-2">
+        <select
+          class="form-control"
+          id="exampleFormControlSelect1"
+          [(ngModel)]="orderByItems"
+          placeholder="Ordenar por"
+          [value]="0"
+        >
+          <option value="">Ordenar por</option>
+          <option ngValue="asc">A-Z</option>
+          <option ngValue="desc">Z-A</option>
+        </select>
+      </div>
+      <!-- componente tipos categorias -->
+      <div class="col-md my-2">
+        <select class="form-control" id="exampleFormControlSelect2" [(ngModel)]="tipoPlan">
+          <option value="Voz y Datos" selected="true">Voz y Datos</option>
+          <option value="Voz">Voz</option>
+          <option value="Datos">Datos</option>
+        </select>
+      </div>
+
+      <div class="col-md my-2">
+        <input
+          type="search"
+          class="form-control"
+          name="searchText"
+          [(ngModel)]="searchText"
+          placeholder="Buscar"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row my-3">
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3 my-3 box-sell">
+      <div class="row my-3">
+        <ng-container item-host></ng-container>
+      </div>
+    </div>
+</div>
+
+

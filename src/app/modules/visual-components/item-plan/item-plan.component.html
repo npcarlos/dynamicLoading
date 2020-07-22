@@ -1,12 +1,12 @@
 <div class="item-catalogo shadow">
   <div class="card-header red-tilte text-center">
-    <h4>{{ nombrePlan }}</h4>
+    <h4>{{ data.nombrePlan }}</h4>
   </div>
   <div class="card-body text-center">
     <div class="info-black">
-      {{ datosMoviles }}
+      {{ data.datosMoviles }}
     </div>
-    <div class="info-red">
+    <!-- <div class="info-red">
       <div class="text-red">$ {{ precioPlan | number: '1.0-0' }}</div>
       <div class="text-black">IVA Incluido</div>
     </div>
@@ -19,6 +19,6 @@
     <div class="info-buttons">
       <button class="btn red-border" (click)="mostrar()">Ver detalle</button>
       <button class="btn red-background" (click)="agregar()">Añadir al carrito</button>
-    </div>
+    </div> -->
   </div>
 </div>
