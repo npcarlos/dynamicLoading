@@ -1,0 +1,128 @@
+{
+  "headerResponse": {
+    "responseDate": "2020-06-09T12:33:11.614-05:00",
+    "traceabilityId": "7504be73-aaf6-43e1-a732-ac5cdbb29dce"
+  },
+  "celulares": [
+    {
+      "celular": 3136058811,
+      "numeroReportes": 1,
+      "primerReporte": "2017-03-01",
+      "ultimoReporte": "2019-11-01"
+    },
+    {
+      "celular": 3117030601,
+      "numeroReportes": 2,
+      "primerReporte": "2012-04-01",
+      "ultimoReporte": "2019-10-01"
+    }
+  ],
+  "codigoRespuesta": 13,
+  "codigoTransaccion": 9223372036854775807,
+  "direcciones": [
+    {
+      "ciudad": "MEDELLIN",
+      "codigoDepto": 5001000,
+      "codigoPais": "co",
+      "direccion": "KR 51 BOLIVAR 39 55",
+      "nombreDepto": "ANTIOQUIA",
+      "numeroReportes": 16,
+      "primerReporte": "2009-07-01",
+      "tipo": "CO",
+      "ultimoReporte": "2009-12-01",
+      "zona": "U"
+    },
+    {
+      "ciudad": "CENTRO",
+      "codigoDepto": 68077004,
+      "codigoPais": "co",
+      "direccion": "KR 50 38 115 PALACE",
+      "nombreDepto": "SANTANDER",
+      "numeroReportes": 48,
+      "primerReporte": "2005-04-01",
+      "tipo": "CO",
+      "ultimoReporte": "2009-12-01",
+      "zona": "R"
+    },
+    {
+      "ciudad": "MEDELLIN",
+      "codigoDepto": 5001000,
+      "codigoPais": "co",
+      "direccion": "KR 51 39 21 PI 1",
+      "nombreDepto": "ANTIOQUIA",
+      "numeroReportes": 19,
+      "primerReporte": "2003-01-01",
+      "tipo": "C",
+      "ultimoReporte": "2006-02-01",
+      "zona": "U"
+    },
+    {
+      "ciudad": "MEDELLIN",
+      "codigoDepto": 5001000,
+      "codigoPais": "co",
+      "direccion": "KR 51 39 47",
+      "nombreDepto": "ANTIOQUIA",
+      "numeroReportes": 1,
+      "primerReporte": "1998-01-01",
+      "tipo": "C",
+      "ultimoReporte": "2009-11-01",
+      "zona": "U"
+    }
+  ],
+  "entidadConsultada": "DATACREDITO",
+  "fault": {
+    "codigoRespuesta": 1,
+    "mensajeRespuesta": "Consulta satisfactoria"
+  },
+  "fechaConsulta": "2020-06-05T09:07:11-05:00",
+  "identificacion": [
+    {
+      "estado": "00",
+      "fechaExpedicion": "2009-05-23",
+      "lugarExpedicion": "URRAO"
+    }
+  ],
+  "informacion": [
+    {
+      "nombreCiiu": "4530",
+      "nombreCompleto": "MOTOR JAPON SAS",
+      "numeroDocumento": 800249713,
+      "tipoDocumento": 2,
+      "validada": "false"
+    }
+  ],
+  "telefonos": [
+    {
+      "ciudad": "MEDELLIN",
+      "numeroReportes": 61,
+      "primerReporte": "2005-04-01",
+      "telefono": 2323252,
+      "tipo": "CO",
+      "ultimoReporte": "2009-11-01"
+    },
+    {
+      "ciudad": "BELLAVISTA",
+      "numeroReportes": 31,
+      "primerReporte": "2003-07-01",
+      "telefono": 2326464,
+      "tipo": "CO",
+      "ultimoReporte": "2009-11-01"
+    },
+    {
+      "ciudad": "MEDELLIN",
+      "numeroReportes": 6,
+      "primerReporte": "2007-11-01",
+      "telefono": 2324134,
+      "tipo": "CO",
+      "ultimoReporte": "2009-12-01"
+    },
+    {
+      "ciudad": "MEDELLIN",
+      "numeroReportes": 1,
+      "primerReporte": "2005-12-01",
+      "telefono": 2328261,
+      "tipo": "CO",
+      "ultimoReporte": "2006-02-01"
+    }
+  ]
+}

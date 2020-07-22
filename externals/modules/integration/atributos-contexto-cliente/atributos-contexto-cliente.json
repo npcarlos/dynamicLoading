@@ -1,0 +1,204 @@
+{
+  "headerResponse": {
+    "responseDate": "2020-05-11T16:48:40.466-05:00",
+    "traceabilityId": "40b407f6-66ee-44f2-9972-d13fb591f62c"
+  },
+  "ok": "true",
+  "messagge": "success",
+  "body": [
+    {
+      "customerID": 93000000094691,
+      "subscriptions": [
+        {
+          "subscriberNumber": 93000000094691,
+          "contextAttributes": [
+            {
+              "name": "custid",
+              "value": "93000000094691"
+            },
+            {
+              "name": "cantidadserviciosfijoactivos",
+              "value": "0"
+            },
+            {
+              "name": "cantidadequiposfinanciados",
+              "value": "4"
+            },
+            {
+              "name": "tipocliente",
+              "value": "Todos"
+            },
+            {
+              "name": "cantidadlineasmovilesactivas",
+              "value": "7"
+            },
+            {
+              "name": "calificacioncredito",
+              "value": "A"
+            },
+            {
+              "name": "segmento",
+              "value": "1"
+            },
+            {
+              "name": "convenio",
+              "value": "1"
+            },
+            {
+              "name": "antiguedadcliente",
+              "value": "Todos"
+            },
+            {
+              "name": "departamento",
+              "value": "11"
+            },
+            {
+              "name": "ciudad",
+              "value": "11001"
+            },
+            {
+              "name": "estrato",
+              "value": "2"
+            },
+            {
+              "name": "tecnologia",
+              "value": "Todos"
+            },
+            {
+              "name": "comportamientopago",
+              "value": "Todos"
+            },
+            {
+              "name": "nodo",
+              "value": "Todos"
+            },
+            {
+              "name": "clausulapermanencia",
+              "value": "Todos"
+            },
+            {
+              "name": "consumodatosicomovilpos",
+              "value": "Todos"
+            },
+            {
+              "name": "consumodatosicomovilpre",
+              "value": "Todos"
+            },
+            {
+              "name": "ContractId",
+              "value": "Todos"
+            },
+            {
+              "name": "estadocontrato",
+              "value": "Todos"
+            },
+            {
+              "name": "cupoutilizadopaquetes",
+              "value": "Todos"
+            },
+            {
+              "name": "cupoutilizadoroaming",
+              "value": "Todos"
+            },
+            {
+              "name": "cupoutilizadolocal",
+              "value": "Todos"
+            }
+          ]
+        },
+        {
+          "subscriberNumber": 573100013064,
+          "contextAttributes": [
+            {
+              "name": "clausulapermanencia",
+              "value": "Todos"
+            },
+            {
+              "name": "estadocontrato",
+              "value": "2"
+            },
+            {
+              "name": "ContractId",
+              "value": "CONTR0000072117"
+            },
+            {
+              "name": "cupoutilizadolocal",
+              "value": "0"
+            },
+            {
+              "name": "consumodatosicomovilpos",
+              "value": "0"
+            },
+            {
+              "name": "cupoutilizadoroaming",
+              "value": "0"
+            },
+            {
+              "name": "cupoutilizadopaquetes",
+              "value": "0"
+            },
+            {
+              "name": "custid",
+              "value": "93000000094691"
+            },
+            {
+              "name": "cantidadserviciosfijoactivos",
+              "value": "2"
+            },
+            {
+              "name": "cantidadequiposfinanciados",
+              "value": "4"
+            },
+            {
+              "name": "tipocliente",
+              "value": "Todos"
+            },
+            {
+              "name": "cantidadlineasmovilesactivas",
+              "value": "7"
+            },
+            {
+              "name": "calificacioncredito"
+            },
+            {
+              "name": "segmento",
+              "value": "1"
+            },
+            {
+              "name": "convenio",
+              "value": "1"
+            },
+            {
+              "name": "antiguedadcliente",
+              "value": "Todos"
+            },
+            {
+              "name": "departamento",
+              "value": "11"
+            },
+            {
+              "name": "ciudad",
+              "value": "11001"
+            },
+            {
+              "name": "estrato",
+              "value": "2"
+            },
+            {
+              "name": "tecnologia",
+              "value": "Todos"
+            },
+            {
+              "name": "comportamientopago",
+              "value": "Todos"
+            },
+            {
+              "name": "nodo",
+              "value": "Todos"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

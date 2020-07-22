@@ -1,0 +1,516 @@
+{
+  "estado": "EXITOSA",
+  "mensaje": "",
+  "respuesta": [
+      {
+          "stock": {
+              "stock_libre_utilizacion": 0,
+              "caracteristicas": [
+                  {
+                      "valor": "7013443",
+                      "nombre": "CodigoMaterial"
+                  }
+              ],
+              "sociedad": "CO15",
+              "lote": "VALORADO",
+              "material_precio": "",
+              "reserva_poliedro": 0,
+              "grupo_caracteristica": "PO_Tec",
+              "reserva_sap": 0,
+              "id_caracteristica": "PO_Tec7013443",
+              "material": "7013443",
+              "denominacion_centro": "CAV BOGOTA CHAPINERO",
+              "texto_comercial_material": "TV Samsung UN50\"RU7100 UHD + Barr N400",
+              "grupo_de_articulos": "TV0002",
+              "stock_disponible_venta": 1,
+              "centro": {
+                  "tipo": "CAV",
+                  "ubicacion": {
+                      "longitud": "4,64572",
+                      "latitud": "-74,06442",
+                      "ciudad": "BOGOTA",
+                      "direccion_sap": "CRA. 13 # 59-52               ",
+                      "cod_logistica": "11001",
+                      "departamento": "CUNDINAMARCA"
+                  },
+                  "descripcion_pac": "CAV CHAPINERO",
+                  "tiempo": "45",
+                  "tiempo_entrega_domicilio": "",
+                  "codigo_domicilio": "C230",
+                  "cod_pac": "74",
+                  "nombre_sap": "CAV BOGOTA CHAPINERO ",
+                  "nodo": "C109",
+                  "almacen": "H001",
+                  "codigo_centro": "C102"
+              },
+              "almacen": "H001",
+              "texto_breve_material": "CMB TV 50RU7100 50\" 4K+BARSOND N400 SAMS",
+              "tipo_de_material": "TV0002",
+              "stock_consignacion": 1,
+              "codigo_centro": "C102",
+              "material_padre": {
+                  "texto_comercial_material": "TV Samsung UN50\"RU7100 UHD + Barr N400"
+              }
+          }
+      },
+      {
+          "stock": {
+              "stock_libre_utilizacion": 0,
+              "caracteristicas": [
+                  {
+                      "valor": "7013443",
+                      "nombre": "CodigoMaterial"
+                  }
+              ],
+              "sociedad": "CO15",
+              "lote": "VALORADO",
+              "material_precio": "",
+              "reserva_poliedro": 0,
+              "grupo_caracteristica": "PO_Tec",
+              "reserva_sap": 0,
+              "id_caracteristica": "PO_Tec7013443",
+              "material": "7013443",
+              "denominacion_centro": "CAV BOGOTA RESTREPO",
+              "texto_comercial_material": "TV Samsung UN50\"RU7100 UHD + Barr N400",
+              "grupo_de_articulos": "TV0002",
+              "stock_disponible_venta": 17,
+              "centro": {
+                  "tipo": "CAV",
+                  "ubicacion": {
+                      "longitud": "4,5859",
+                      "latitud": "-74,09304",
+                      "ciudad": "BOGOTA",
+                      "direccion_sap": "CRA. 14 # 10-19 SUR           ",
+                      "cod_logistica": "11001",
+                      "departamento": "CUNDINAMARCA"
+                  },
+                  "descripcion_pac": "CAV RESTREPO",
+                  "tiempo": "30",
+                  "tiempo_entrega_domicilio": "",
+                  "codigo_domicilio": "C230",
+                  "cod_pac": "73",
+                  "nombre_sap": "CAV BOGOTA RESTREPO ",
+                  "nodo": "C109",
+                  "almacen": "H001",
+                  "codigo_centro": "C103"
+              },
+              "almacen": "H001",
+              "texto_breve_material": "CMB TV 50RU7100 50\" 4K+BARSOND N400 SAMS",
+              "tipo_de_material": "TV0002",
+              "stock_consignacion": 17,
+              "codigo_centro": "C103",
+              "material_padre": {
+                  "texto_comercial_material": "TV Samsung UN50\"RU7100 UHD + Barr N400"
+              }
+          }
+      },
+      {
+          "stock": {
+              "stock_libre_utilizacion": 0,
+              "caracteristicas": [
+                  {
+                      "valor": "7013443",
+                      "nombre": "CodigoMaterial"
+                  }
+              ],
+              "sociedad": "CO15",
+              "lote": "VALORADO",
+              "material_precio": "",
+              "reserva_poliedro": 0,
+              "grupo_caracteristica": "PO_Tec",
+              "reserva_sap": 0,
+              "id_caracteristica": "PO_Tec7013443",
+              "material": "7013443",
+              "denominacion_centro": "CAV SOACHA MERCURIO II",
+              "texto_comercial_material": "TV Samsung UN50\"RU7100 UHD + Barr N400",
+              "grupo_de_articulos": "TV0002",
+              "stock_disponible_venta": 2,
+              "centro": {
+                  "tipo": "CAV",
+                  "ubicacion": {
+                      "longitud": "4,58697",
+                      "latitud": "-74,205909",
+                      "ciudad": "BOGOTA",
+                      "direccion_sap": "AUT SUR C.C. MERCURIO L151    ",
+                      "cod_logistica": "11001",
+                      "departamento": "CUNDINAMARCA"
+                  },
+                  "descripcion_pac": "CAV SOACHA",
+                  "tiempo": "30",
+                  "tiempo_entrega_domicilio": "",
+                  "codigo_domicilio": "C230",
+                  "cod_pac": "75",
+                  "nombre_sap": "CAV SOACHA MERCURIO II ",
+                  "nodo": "C105",
+                  "almacen": "H001",
+                  "codigo_centro": "C104"
+              },
+              "almacen": "H001",
+              "texto_breve_material": "CMB TV 50RU7100 50\" 4K+BARSOND N400 SAMS",
+              "tipo_de_material": "TV0002",
+              "stock_consignacion": 2,
+              "codigo_centro": "C104",
+              "material_padre": {
+                  "texto_comercial_material": "TV Samsung UN50\"RU7100 UHD + Barr N400"
+              }
+          }
+      },
+      {
+          "stock": {
+              "stock_libre_utilizacion": 0,
+              "caracteristicas": [
+                  {
+                      "valor": "7013443",
+                      "nombre": "CodigoMaterial"
+                  }
+              ],
+              "sociedad": "CO15",
+              "lote": "VALORADO",
+              "material_precio": "",
+              "reserva_poliedro": 0,
+              "grupo_caracteristica": "PO_Tec",
+              "reserva_sap": 0,
+              "id_caracteristica": "PO_Tec7013443",
+              "material": "7013443",
+              "denominacion_centro": "CAV BOGOTA VENECIA",
+              "texto_comercial_material": "TV Samsung UN50\"RU7100 UHD + Barr N400",
+              "grupo_de_articulos": "TV0002",
+              "stock_disponible_venta": 5,
+              "centro": {
+                  "tipo": "CAV",
+                  "ubicacion": {
+                      "longitud": "4,59749",
+                      "latitud": "-74,13703",
+                      "ciudad": "BOGOTA",
+                      "direccion_sap": "AV. 68 #39I-37 SUR            ",
+                      "cod_logistica": "11001",
+                      "departamento": "CUNDINAMARCA"
+                  },
+                  "descripcion_pac": "CAV VENECIA",
+                  "tiempo": "0",
+                  "tiempo_entrega_domicilio": "",
+                  "codigo_domicilio": "C230",
+                  "cod_pac": "10",
+                  "nombre_sap": "CAV BOGOTA VENECIA ",
+                  "nodo": "C105",
+                  "almacen": "H001",
+                  "codigo_centro": "C105"
+              },
+              "almacen": "H001",
+              "texto_breve_material": "CMB TV 50RU7100 50\" 4K+BARSOND N400 SAMS",
+              "tipo_de_material": "TV0002",
+              "stock_consignacion": 5,
+              "codigo_centro": "C105",
+              "material_padre": {
+                  "texto_comercial_material": "TV Samsung UN50\"RU7100 UHD + Barr N400"
+              }
+          }
+      },
+      {
+          "stock": {
+              "stock_libre_utilizacion": 0,
+              "caracteristicas": [
+                  {
+                      "valor": "7013443",
+                      "nombre": "CodigoMaterial"
+                  }
+              ],
+              "sociedad": "CO15",
+              "lote": "VALORADO",
+              "material_precio": "",
+              "reserva_poliedro": 0,
+              "grupo_caracteristica": "PO_Tec",
+              "reserva_sap": 0,
+              "id_caracteristica": "PO_Tec7013443",
+              "material": "7013443",
+              "denominacion_centro": "CAV BOGOTA ALAMOS",
+              "texto_comercial_material": "TV Samsung UN50\"RU7100 UHD + Barr N400",
+              "grupo_de_articulos": "TV0002",
+              "stock_disponible_venta": 6,
+              "centro": {
+                  "tipo": "CAV",
+                  "ubicacion": {
+                      "longitud": "4,7053161",
+                      "latitud": "-74,1187586",
+                      "ciudad": "BOGOTA",
+                      "direccion_sap": "TRV. 96 #70A-85 L132 C.C. DIVE",
+                      "cod_logistica": "11001",
+                      "departamento": "CUNDINAMARCA"
+                  },
+                  "descripcion_pac": "CAV ALAMOS",
+                  "tiempo": "0",
+                  "tiempo_entrega_domicilio": "",
+                  "codigo_domicilio": "C230",
+                  "cod_pac": "54",
+                  "nombre_sap": "CAV BOGOTA ALAMOS ",
+                  "nodo": "C106",
+                  "almacen": "H001",
+                  "codigo_centro": "C106"
+              },
+              "almacen": "H001",
+              "texto_breve_material": "CMB TV 50RU7100 50\" 4K+BARSOND N400 SAMS",
+              "tipo_de_material": "TV0002",
+              "stock_consignacion": 6,
+              "codigo_centro": "C106",
+              "material_padre": {
+                  "texto_comercial_material": "TV Samsung UN50\"RU7100 UHD + Barr N400"
+              }
+          }
+      },
+      {
+          "stock": {
+              "stock_libre_utilizacion": 0,
+              "caracteristicas": [
+                  {
+                      "valor": "7013443",
+                      "nombre": "CodigoMaterial"
+                  }
+              ],
+              "sociedad": "CO15",
+              "lote": "VALORADO",
+              "material_precio": "",
+              "reserva_poliedro": 0,
+              "grupo_caracteristica": "PO_Tec",
+              "reserva_sap": 0,
+              "id_caracteristica": "PO_Tec7013443",
+              "material": "7013443",
+              "denominacion_centro": "BOSA GRAN PLAZA",
+              "texto_comercial_material": "TV Samsung UN50\"RU7100 UHD + Barr N400",
+              "grupo_de_articulos": "TV0002",
+              "stock_disponible_venta": 1,
+              "centro": {
+                  "tipo": "Tienda",
+                  "ubicacion": {
+                      "longitud": "4,6043739",
+                      "latitud": "-74,1862775",
+                      "ciudad": "BOGOTA",
+                      "direccion_sap": "Calle 65 Sur #78H-51 CC Gran P",
+                      "cod_logistica": "11001",
+                      "departamento": "CUNDINAMARCA"
+                  },
+                  "descripcion_pac": "CAV TIENDA CC GRAN PLAZA BOSA",
+                  "tiempo": "30",
+                  "tiempo_entrega_domicilio": "",
+                  "codigo_domicilio": "C230",
+                  "cod_pac": "417",
+                  "nombre_sap": "BOSA GRAN PLAZA ",
+                  "nodo": "C111",
+                  "almacen": "H001",
+                  "codigo_centro": "C114"
+              },
+              "almacen": "H001",
+              "texto_breve_material": "CMB TV 50RU7100 50\" 4K+BARSOND N400 SAMS",
+              "tipo_de_material": "TV0002",
+              "stock_consignacion": 1,
+              "codigo_centro": "C114",
+              "material_padre": {
+                  "texto_comercial_material": "TV Samsung UN50\"RU7100 UHD + Barr N400"
+              }
+          }
+      },
+      {
+          "stock": {
+              "stock_libre_utilizacion": 0,
+              "caracteristicas": [
+                  {
+                      "valor": "7013443",
+                      "nombre": "CodigoMaterial"
+                  }
+              ],
+              "sociedad": "CO15",
+              "lote": "VALORADO",
+              "material_precio": "",
+              "reserva_poliedro": 0,
+              "grupo_caracteristica": "PO_Tec",
+              "reserva_sap": 0,
+              "id_caracteristica": "PO_Tec7013443",
+              "material": "7013443",
+              "denominacion_centro": "CAV BOGOTA FLORESTA",
+              "texto_comercial_material": "TV Samsung UN50\"RU7100 UHD + Barr N400",
+              "grupo_de_articulos": "TV0002",
+              "stock_disponible_venta": 7,
+              "centro": {
+                  "tipo": "CAV",
+                  "ubicacion": {
+                      "longitud": "4,687854",
+                      "latitud": "-74,073225",
+                      "ciudad": "BOGOTA",
+                      "direccion_sap": "CRA. 67A #95-63               ",
+                      "cod_logistica": "11001",
+                      "departamento": "CUNDINAMARCA"
+                  },
+                  "descripcion_pac": "CAV FLORESTA",
+                  "tiempo": "30",
+                  "tiempo_entrega_domicilio": "",
+                  "codigo_domicilio": "C230",
+                  "cod_pac": "218",
+                  "nombre_sap": "CAV BOGOTA FLORESTA ",
+                  "nodo": "C106",
+                  "almacen": "H001",
+                  "codigo_centro": "C115"
+              },
+              "almacen": "H001",
+              "texto_breve_material": "CMB TV 50RU7100 50\" 4K+BARSOND N400 SAMS",
+              "tipo_de_material": "TV0002",
+              "stock_consignacion": 7,
+              "codigo_centro": "C115",
+              "material_padre": {
+                  "texto_comercial_material": "TV Samsung UN50\"RU7100 UHD + Barr N400"
+              }
+          }
+      },
+      {
+          "stock": {
+              "stock_libre_utilizacion": 0,
+              "caracteristicas": [
+                  {
+                      "valor": "7013443",
+                      "nombre": "CodigoMaterial"
+                  }
+              ],
+              "sociedad": "CO15",
+              "lote": "VALORADO",
+              "material_precio": "",
+              "reserva_poliedro": 0,
+              "grupo_caracteristica": "PO_Tec",
+              "reserva_sap": 0,
+              "id_caracteristica": "PO_Tec7013443",
+              "material": "7013443",
+              "denominacion_centro": "CAV BOGOTA CALIMA",
+              "texto_comercial_material": "TV Samsung UN50\"RU7100 UHD + Barr N400",
+              "grupo_de_articulos": "TV0002",
+              "stock_disponible_venta": 4,
+              "centro": {
+                  "tipo": "CAV",
+                  "ubicacion": {
+                      "longitud": "4,6181793",
+                      "latitud": "-74,0882347",
+                      "ciudad": "BOGOTA",
+                      "direccion_sap": "Av. Cra 30 #19 Local B1-B19   ",
+                      "cod_logistica": "11001",
+                      "departamento": "CUNDINAMARCA"
+                  },
+                  "descripcion_pac": "CAV CALIMA",
+                  "tiempo": "30",
+                  "tiempo_entrega_domicilio": "",
+                  "codigo_domicilio": "C230",
+                  "cod_pac": "332",
+                  "nombre_sap": "CAV BOGOTA CALIMA ",
+                  "nodo": "C109",
+                  "almacen": "H001",
+                  "codigo_centro": "C116"
+              },
+              "almacen": "H001",
+              "texto_breve_material": "CMB TV 50RU7100 50\" 4K+BARSOND N400 SAMS",
+              "tipo_de_material": "TV0002",
+              "stock_consignacion": 4,
+              "codigo_centro": "C116",
+              "material_padre": {
+                  "texto_comercial_material": "TV Samsung UN50\"RU7100 UHD + Barr N400"
+              }
+          }
+      },
+      {
+          "stock": {
+              "stock_libre_utilizacion": 0,
+              "caracteristicas": [
+                  {
+                      "valor": "7013443",
+                      "nombre": "CodigoMaterial"
+                  }
+              ],
+              "sociedad": "CO15",
+              "lote": "VALORADO",
+              "material_precio": "",
+              "reserva_poliedro": 0,
+              "grupo_caracteristica": "PO_Tec",
+              "reserva_sap": 0,
+              "id_caracteristica": "PO_Tec7013443",
+              "material": "7013443",
+              "denominacion_centro": "CAV BOGOTA NIZA",
+              "texto_comercial_material": "TV Samsung UN50\"RU7100 UHD + Barr N400",
+              "grupo_de_articulos": "TV0002",
+              "stock_disponible_venta": 5,
+              "centro": {
+                  "tipo": "CAV",
+                  "ubicacion": {
+                      "longitud": "4,7148793",
+                      "latitud": "-74,0750297",
+                      "ciudad": "BOGOTA",
+                      "direccion_sap": "AV. SUBA # 128-30             ",
+                      "cod_logistica": "11001",
+                      "departamento": "CUNDINAMARCA"
+                  },
+                  "descripcion_pac": "CAV NIZA",
+                  "tiempo": "0",
+                  "tiempo_entrega_domicilio": "",
+                  "codigo_domicilio": "C230",
+                  "cod_pac": "131",
+                  "nombre_sap": "CAV BOGOTA NIZA ",
+                  "nodo": "C117",
+                  "almacen": "H001",
+                  "codigo_centro": "C117"
+              },
+              "almacen": "H001",
+              "texto_breve_material": "CMB TV 50RU7100 50\" 4K+BARSOND N400 SAMS",
+              "tipo_de_material": "TV0002",
+              "stock_consignacion": 5,
+              "codigo_centro": "C117",
+              "material_padre": {
+                  "texto_comercial_material": "TV Samsung UN50\"RU7100 UHD + Barr N400"
+              }
+          }
+      },
+      {
+          "stock": {
+              "stock_libre_utilizacion": 0,
+              "caracteristicas": [
+                  {
+                      "valor": "7013443",
+                      "nombre": "CodigoMaterial"
+                  }
+              ],
+              "sociedad": "CO15",
+              "lote": "VALORADO",
+              "material_precio": "",
+              "reserva_poliedro": 0,
+              "grupo_caracteristica": "PO_Tec",
+              "reserva_sap": 0,
+              "id_caracteristica": "PO_Tec7013443",
+              "material": "7013443",
+              "denominacion_centro": "CAV BOGOTA CALLE 116",
+              "texto_comercial_material": "TV Samsung UN50\"RU7100 UHD + Barr N400",
+              "grupo_de_articulos": "TV0002",
+              "stock_disponible_venta": 2,
+              "centro": {
+                  "tipo": "CAV",
+                  "ubicacion": {
+                      "longitud": "4,698654",
+                      "latitud": "-74,050555",
+                      "ciudad": "BOGOTA",
+                      "direccion_sap": "CLL. 116 # 19 A-41            ",
+                      "cod_logistica": "11001",
+                      "departamento": "CUNDINAMARCA"
+                  },
+                  "descripcion_pac": "CAV CALLE 116 PEPE SIERRA",
+                  "tiempo": "40",
+                  "tiempo_entrega_domicilio": "",
+                  "codigo_domicilio": "C230",
+                  "cod_pac": "133",
+                  "nombre_sap": "CAV BOGOTA CALLE 116 ",
+                  "nodo": "C117",
+                  "almacen": "H001",
+                  "codigo_centro": "C118"
+              },
+              "almacen": "H001",
+              "texto_breve_material": "CMB TV 50RU7100 50\" 4K+BARSOND N400 SAMS",
+              "tipo_de_material": "TV0002",
+              "stock_consignacion": 2,
+              "codigo_centro": "C118",
+              "material_padre": {
+                  "texto_comercial_material": "TV Samsung UN50\"RU7100 UHD + Barr N400"
+              }
+          }
+      }
+  ]
+}

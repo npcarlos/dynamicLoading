@@ -1,5 +1,5 @@
 import { EntityTemplate, ObjectValueTemplate } from './template';
-import { toCamelCase } from '../../resources/string-utils';
+import { toCamelCase } from '../../../libraries/resources/string-utils';
 
 /**
  *

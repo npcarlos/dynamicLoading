@@ -1,0 +1,1692 @@
+{
+  "headerResponse": {
+    "endDate": "2020-06-30T13:34:16.749-05:00",
+    "idESBTransaction": "N53e7d5ac.65c4bc9.N3.173067eba45.N7fdb",
+    "startDate": "2020-06-30T17:52:10.340Z",
+    "idBusinessTransaction": "1234567890"
+  },
+  "getProductOfferingResponse": [
+    {
+      "versions": [
+        {
+          "associations": [
+            {
+              "targetSpecificationType": "ProductSpecification",
+              "associationType": "contains",
+              "targetType": "Product",
+              "href": "/ecm/ecmRT/v2/productSpecification/PS_Equipos",
+              "targetSpecificationId": "PS_Equipos"
+            }
+          ],
+          "characteristics": [
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "CodeTable",
+                  "name": "Instance State",
+                  "id": "instance_state",
+                  "type": "lifeCycle",
+                  "characteristicValues": [
+                    {
+                      "displayValue": "TERMINATED",
+                      "isDefault": false,
+                      "validFor": {
+                        "startDateTime": "2020-06-26T05:00:00.000Z"
+                      },
+                      "valueType": "CodeTable",
+                      "value": "TERMINATED"
+                    },
+                    {
+                      "displayValue": "SUSPENDED",
+                      "isDefault": false,
+                      "validFor": {
+                        "startDateTime": "2020-06-26T05:00:00.000Z"
+                      },
+                      "valueType": "CodeTable",
+                      "value": "SUSPENDED"
+                    },
+                    {
+                      "displayValue": "NEW",
+                      "isDefault": false,
+                      "validFor": {
+                        "startDateTime": "2020-06-26T05:00:00.000Z"
+                      },
+                      "valueType": "CodeTable",
+                      "value": "NEW"
+                    },
+                    {
+                      "displayValue": "MIGRATED",
+                      "isDefault": false,
+                      "validFor": {
+                        "startDateTime": "2020-06-26T05:00:00.000Z"
+                      },
+                      "valueType": "CodeTable",
+                      "value": "MIGRATED"
+                    },
+                    {
+                      "displayValue": "ACTIVE",
+                      "isDefault": false,
+                      "validFor": {
+                        "startDateTime": "2020-06-26T05:00:00.000Z"
+                      },
+                      "valueType": "CodeTable",
+                      "value": "ACTIVE"
+                    }
+                  ],
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "CONF"
+                    }
+                  ]
+                }
+              ],
+              "id": "instance_state"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "NO",
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "NFC",
+                  "id": "NFC",
+                  "type": "pscmUserAttribute",
+                  "value": "NO",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "NFC"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "Date",
+                  "name": "FechaFinGarantiaFabricante",
+                  "id": "FechaFinGarantiaFabricante",
+                  "type": "pscmUserAttribute",
+                  "characteristicValues": [
+                    {
+                      "validFor": {
+                        "startDateTime": "2020-06-26T05:00:00.000Z"
+                      },
+                      "valueType": "Date"
+                    }
+                  ],
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "CONF"
+                    },
+                    {
+                      "isSelected": true,
+                      "value": "SaveToSR"
+                    },
+                    {
+                      "isSelected": true,
+                      "value": "SkipBSCSProvision"
+                    }
+                  ]
+                }
+              ],
+              "id": "FechaFinGarantiaFabricante"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "0 Meses",
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "CodeTable",
+                  "name": "Posibilidad Financiamiento",
+                  "id": "PlazoMeses",
+                  "type": "pscmUserAttribute",
+                  "characteristicValues": [
+                    {
+                      "displayValue": "0 Meses",
+                      "isDefault": true,
+                      "validFor": {
+                        "startDateTime": "2020-06-26T05:00:00.000Z"
+                      },
+                      "valueType": "CodeTable",
+                      "value": "0"
+                    }
+                  ],
+                  "value": "0",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "CONF"
+                    },
+                    {
+                      "isSelected": true,
+                      "value": "SaveToSR"
+                    },
+                    {
+                      "isSelected": true,
+                      "value": "SkipBSCSProvision"
+                    }
+                  ]
+                }
+              ],
+              "id": "PlazoMeses"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "GPS",
+                  "id": "GPS",
+                  "type": "pscmUserAttribute",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "GPS"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "365",
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "Number",
+                  "name": "GarantiaDiasFabricante",
+                  "id": "GarantiaDiasFabricante",
+                  "type": "pscmUserAttribute",
+                  "characteristicValues": [
+                    {
+                      "displayValue": "365",
+                      "isDefault": true,
+                      "validFor": {
+                        "startDateTime": "2020-06-26T05:00:00.000Z"
+                      },
+                      "valueType": "Number",
+                      "value": "365"
+                    }
+                  ],
+                  "value": "365",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "CONF"
+                    },
+                    {
+                      "isSelected": true,
+                      "value": "SaveToSR"
+                    },
+                    {
+                      "isSelected": true,
+                      "value": "SkipBSCSProvision"
+                    }
+                  ]
+                }
+              ],
+              "id": "GarantiaDiasFabricante"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "Number",
+                  "name": "GarantiaDiasClaro",
+                  "id": "GarantiaDiasClaro",
+                  "type": "pscmUserAttribute",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "GarantiaDiasClaro"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "Date",
+                  "name": "FechaFinGarantiaClaro",
+                  "id": "FechaFinGarantiaClaro",
+                  "type": "pscmUserAttribute",
+                  "characteristicValues": [
+                    {
+                      "validFor": {
+                        "startDateTime": "2020-06-26T05:00:00.000Z"
+                      },
+                      "valueType": "Date"
+                    }
+                  ],
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "CONF"
+                    },
+                    {
+                      "isSelected": true,
+                      "value": "SaveToSR"
+                    },
+                    {
+                      "isSelected": true,
+                      "value": "SkipBSCSProvision"
+                    }
+                  ]
+                }
+              ],
+              "id": "FechaFinGarantiaClaro"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "URLSimulador",
+                  "id": "URLSimulador",
+                  "type": "pscmUserAttribute",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "URLSimulador"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "FuncionesEspeciales",
+                  "id": "FuncionesEspeciales",
+                  "type": "pscmUserAttribute",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "FuncionesEspeciales"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "false",
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "Boolean",
+                  "name": "isComposite",
+                  "id": "isComposite",
+                  "type": "pscmUserAttribute",
+                  "value": "0"
+                }
+              ],
+              "id": "isComposite"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "Id Kit",
+                  "id": "KitId",
+                  "type": "pscmUserAttribute",
+                  "characteristicValues": [
+                    {
+                      "validFor": {
+                        "startDateTime": "2020-06-26T05:00:00.000Z"
+                      },
+                      "valueType": "String"
+                    }
+                  ],
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "CONF"
+                    },
+                    {
+                      "isSelected": true,
+                      "value": "SaveToSR"
+                    },
+                    {
+                      "isSelected": true,
+                      "value": "SkipBSCSProvision"
+                    }
+                  ]
+                }
+              ],
+              "id": "KitId"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "URL",
+                  "id": "URL",
+                  "type": "pscmUserAttribute",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "URL"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "BANDAS_DISPONIBLES",
+                  "id": "BANDAS_DISPONIBLES",
+                  "type": "pscmUserAttribute",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "BANDAS_DISPONIBLES"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "BLUETOOTH",
+                  "id": "BLUETOOTH",
+                  "type": "pscmUserAttribute",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "BLUETOOTH"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "CAMARA_PRINCIPAL_TRASERA",
+                  "id": "CAMARA_PRINCIPAL_TRASERA",
+                  "type": "pscmUserAttribute",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "CAMARA_PRINCIPAL_TRASERA"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "CAMARA_SECUNDARIA_SELFIE",
+                  "id": "CAMARA_SECUNDARIA_SELFIE",
+                  "type": "pscmUserAttribute",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "CAMARA_SECUNDARIA_SELFIE"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "CANTIDAD_CAMARAS_FRONTALES_SEL",
+                  "id": "CANTIDAD_CAMARAS_FRONTALES_SEL",
+                  "type": "pscmUserAttribute",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "CANTIDAD_CAMARAS_FRONTALES_SEL"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "CANTIDAD_CAMARAS_PRINCIPAL_TRA",
+                  "id": "CANTIDAD_CAMARAS_PRINCIPAL_TRA",
+                  "type": "pscmUserAttribute",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "CANTIDAD_CAMARAS_PRINCIPAL_TRA"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "HABLA;ESCRIBE;DIVIERTETE NAVEG",
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "CATEGORIA_C",
+                  "id": "CATEGORIA_C",
+                  "type": "pscmUserAttribute",
+                  "value": "HABLA;ESCRIBE;DIVIERTETE NAVEG",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "CATEGORIA_C"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "Voz y Datos",
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "CATEGORIA_USO",
+                  "id": "CATEGORIA_USO",
+                  "type": "pscmUserAttribute",
+                  "value": "Voz y Datos",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "CATEGORIA_USO"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "CONTENIDO_DE_PRODUCTO",
+                  "id": "CONTENIDO_DE_PRODUCTO",
+                  "type": "pscmUserAttribute",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "CONTENIDO_DE_PRODUCTO"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "DESBLOQUEO",
+                  "id": "DESBLOQUEO",
+                  "type": "pscmUserAttribute",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "DESBLOQUEO"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "DISENO_DE_PANTALLA",
+                  "id": "DISENO_DE_PANTALLA",
+                  "type": "pscmUserAttribute",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "DISENO_DE_PANTALLA"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "TOUCH-BARRA",
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "FORMATO_EQUIPO",
+                  "id": "FORMATO_EQUIPO",
+                  "type": "pscmUserAttribute",
+                  "value": "TOUCH-BARRA",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "FORMATO_EQUIPO"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "FRECUENCIAS",
+                  "id": "FRECUENCIAS",
+                  "type": "pscmUserAttribute",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "FRECUENCIAS"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "FUNCIONALES_ESPECIALES",
+                  "id": "FUNCIONALES_ESPECIALES",
+                  "type": "pscmUserAttribute",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "FUNCIONALES_ESPECIALES"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "INTELIGENCIA_ARTIFICIAL",
+                  "id": "INTELIGENCIA_ARTIFICIAL",
+                  "type": "pscmUserAttribute",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "INTELIGENCIA_ARTIFICIAL"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "MATERIAL_DE_FABRICACION",
+                  "id": "MATERIAL_DE_FABRICACION",
+                  "type": "pscmUserAttribute",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "MATERIAL_DE_FABRICACION"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "16GB",
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "MEMORIA_INTERNA",
+                  "id": "MEMORIA_INTERNA",
+                  "type": "pscmUserAttribute",
+                  "value": "16GB",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "MEMORIA_INTERNA"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "MEMORIA_RAM",
+                  "id": "MEMORIA_RAM",
+                  "type": "pscmUserAttribute",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "MEMORIA_RAM"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "MEMORIA_ROM",
+                  "id": "MEMORIA_ROM",
+                  "type": "pscmUserAttribute",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "MEMORIA_ROM"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "MEMORIA_ROM_DISPONIBLE_USUARIO",
+                  "id": "MEMORIA_ROM_DISPONIBLE_USUARIO",
+                  "type": "pscmUserAttribute",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "MEMORIA_ROM_DISPONIBLE_USUARIO"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "PESO_DEL_EQUIPO",
+                  "id": "PESO_DEL_EQUIPO",
+                  "type": "pscmUserAttribute",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "PESO_DEL_EQUIPO"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "PROCESADOR",
+                  "id": "PROCESADOR",
+                  "type": "pscmUserAttribute",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "PROCESADOR"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "RADIO",
+                  "id": "RADIO",
+                  "type": "pscmUserAttribute",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "RADIO"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "RANURA_DE_EXPANSION_CAPACIDAD",
+                  "id": "RANURA_DE_EXPANSION_CAPACIDAD",
+                  "type": "pscmUserAttribute",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "RANURA_DE_EXPANSION_CAPACIDAD"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "RESOLUCION_DE_PANTALLA",
+                  "id": "RESOLUCION_DE_PANTALLA",
+                  "type": "pscmUserAttribute",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "RESOLUCION_DE_PANTALLA"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "SD_CARD",
+                  "id": "SD_CARD",
+                  "type": "pscmUserAttribute",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "SD_CARD"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "MICROSIMCARD",
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "SIMCARD",
+                  "id": "SIMCARD",
+                  "type": "pscmUserAttribute",
+                  "value": "MICROSIMCARD",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "SIMCARD"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "SINGLE_SIM_CARD__DUAL_SIM",
+                  "id": "SINGLE_SIM_CARD__DUAL_SIM",
+                  "type": "pscmUserAttribute",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "SINGLE_SIM_CARD__DUAL_SIM"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "IOS",
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "SISTEMA_OPERATIVO",
+                  "id": "SISTEMA_OPERATIVO",
+                  "type": "pscmUserAttribute",
+                  "value": "IOS",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "SISTEMA_OPERATIVO"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "TAMANO_DEL_EQUIPO",
+                  "id": "TAMANO_DEL_EQUIPO",
+                  "type": "pscmUserAttribute",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "TAMANO_DEL_EQUIPO"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "TAMANO_PANTALLA",
+                  "id": "TAMANO_PANTALLA",
+                  "type": "pscmUserAttribute",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "TAMANO_PANTALLA"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "TIPO_DE_BATERIA",
+                  "id": "TIPO_DE_BATERIA",
+                  "type": "pscmUserAttribute",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "TIPO_DE_BATERIA"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "TIPO_DE_PANTALLA",
+                  "id": "TIPO_DE_PANTALLA",
+                  "type": "pscmUserAttribute",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "TIPO_DE_PANTALLA"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "WIFI",
+                  "id": "WIFI",
+                  "type": "pscmUserAttribute",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "WIFI"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "NANOSIM",
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "ZREQUIERE_TIPO_SIM_AMDOCS",
+                  "id": "ZREQUIERE_TIPO_SIM_AMDOCS",
+                  "type": "pscmUserAttribute",
+                  "value": "NANOSIM",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "ZREQUIERE_TIPO_SIM_AMDOCS"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "LTE",
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "TecnologiaEquipos",
+                  "id": "TecnologiaEquipos",
+                  "type": "pscmUserAttribute",
+                  "value": "LTE",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "TecnologiaEquipos"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "OPTIONAL",
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "CodeTable",
+                  "name": "Product Technical Type",
+                  "id": "productTechnicalType",
+                  "type": "pscmUserAttribute",
+                  "value": "OPTIONAL",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "productTechnicalType"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "IPH 6 PLUS 16GB SPACE GRAY",
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "ModeloEquipos",
+                  "id": "ModeloEquipos",
+                  "type": "pscmSystemAttribute",
+                  "value": "IPH 6 PLUS 16GB SPACE GRAY",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "ModeloEquipos"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "ALTA",
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "Gama",
+                  "id": "Gama",
+                  "type": "pscmSystemAttribute",
+                  "value": "ALTA",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "Gama"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "false",
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "Boolean",
+                  "name": "shared",
+                  "id": "shared",
+                  "type": "pscmSystemAttribute",
+                  "value": "0"
+                }
+              ],
+              "id": "shared"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "Telefonos",
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "CodeTable",
+                  "name": "Offer Type",
+                  "id": "specificationSubtype",
+                  "type": "pscmSystemAttribute",
+                  "value": "Telefono",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "specificationSubtype"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "Smartphone",
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "CodeTable",
+                  "name": "specificationSubSubtype",
+                  "id": "specificationSubSubtype",
+                  "type": "pscmSystemAttribute",
+                  "value": "Smartphone",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "specificationSubSubtype"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "Terminales",
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "CodeTable",
+                  "name": "Family",
+                  "id": "family",
+                  "type": "pscmSystemAttribute",
+                  "value": "Terminales",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "family"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "Sale",
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "CodeTable",
+                  "name": "Category",
+                  "id": "category",
+                  "type": "pscmSystemAttribute",
+                  "characteristicValues": [
+                    {
+                      "displayValue": "Service",
+                      "isDefault": false,
+                      "validFor": {
+                        "startDateTime": "2020-06-26T05:00:00.000Z"
+                      },
+                      "valueType": "CodeTable",
+                      "value": "Service"
+                    },
+                    {
+                      "displayValue": "Sale",
+                      "isDefault": true,
+                      "validFor": {
+                        "startDateTime": "2020-06-26T05:00:00.000Z"
+                      },
+                      "valueType": "CodeTable",
+                      "value": "Sale"
+                    },
+                    {
+                      "displayValue": "Rental",
+                      "isDefault": false,
+                      "validFor": {
+                        "startDateTime": "2020-06-26T05:00:00.000Z"
+                      },
+                      "valueType": "CodeTable",
+                      "value": "Rental"
+                    },
+                    {
+                      "displayValue": "Garantia",
+                      "isDefault": false,
+                      "validFor": {
+                        "startDateTime": "2020-06-26T05:00:00.000Z"
+                      },
+                      "valueType": "CodeTable",
+                      "value": "Garantia"
+                    }
+                  ],
+                  "value": "Sale",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "CONF"
+                    },
+                    {
+                      "isSelected": true,
+                      "value": "SaveToSR"
+                    },
+                    {
+                      "isSelected": true,
+                      "value": "SkipBSCSProvision"
+                    }
+                  ]
+                }
+              ],
+              "id": "category"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "70011252",
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "CodigoMaterial",
+                  "id": "CodigoMaterial",
+                  "type": "pscmSystemAttribute",
+                  "value": "70011252",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "CodigoMaterial"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "GRIS",
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "Color",
+                  "id": "Color",
+                  "type": "pscmSystemAttribute",
+                  "value": "GRIS",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "Color"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "APPLE",
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "FabricanteEquipos",
+                  "id": "FabricanteEquipos",
+                  "type": "pscmSystemAttribute",
+                  "value": "APPLE",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "FabricanteEquipos"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "STZ",
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "CodeTable",
+                  "name": "TimeZone Type",
+                  "id": "tariffTimeTimeZoneType",
+                  "type": "pscmSystemAttribute",
+                  "value": "STZ"
+                }
+              ],
+              "id": "tariffTimeTimeZoneType"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "A",
+                  "validFor": {
+                    "startDateTime": "2020-06-26T05:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "CLASIFICACION_FISCAL",
+                  "id": "CLASIFICACION_FISCAL",
+                  "type": "pscmTechnicalAttribute",
+                  "value": "A",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "DEF"
+                    }
+                  ]
+                }
+              ],
+              "id": "CLASIFICACION_FISCAL"
+            }
+          ],
+          "productOfferingPrices": [
+            {
+              "versions": [
+                {
+                  "characteristics": [
+                    {
+                      "versions": [
+                        {
+                          "displayValue": "N",
+                          "validFor": {
+                            "startDateTime": "2020-06-26T05:00:00.000Z"
+                          },
+                          "valueType": "CodeTable",
+                          "name": "Billing Pricing Type",
+                          "id": "billingPricingType",
+                          "valueTypeSpecification": {
+                            "id": "billingPricingType"
+                          },
+                          "value": "N"
+                        }
+                      ],
+                      "id": "billingPricingType"
+                    },
+                    {
+                      "versions": [
+                        {
+                          "displayValue": "PrecioBase",
+                          "validFor": {
+                            "startDateTime": "2020-06-26T05:00:00.000Z"
+                          },
+                          "valueType": "CodeTable",
+                          "name": "TipoPrecio",
+                          "id": "TipoPrecio",
+                          "valueTypeSpecification": {
+                            "id": "TipoPrecio"
+                          },
+                          "type": "infoModelSystemAttribute",
+                          "value": "PB",
+                          "properties": [
+                            {
+                              "isSelected": true,
+                              "value": "READONLY"
+                            }
+                          ]
+                        }
+                      ],
+                      "id": "TipoPrecio"
+                    }
+                  ],
+                  "markup": 0,
+                  "price": {
+                    "amount": 99999999,
+                    "units": {
+                      "code": "COP",
+                      "name": "COP"
+                    }
+                  },
+                  "percentage": 0,
+                  "name": "PrecioBaseTerminales",
+                  "id": "CT_TerPrecioBaseOTC",
+                  "plaId": "CT_TerPrecioBaseOTC",
+                  "popType": "PrecioBaseOne-Time",
+                  "frequency": "O"
+                }
+              ],
+              "id": "CT_TerPrecioBaseOTC"
+            },
+            {
+              "versions": [
+                {
+                  "characteristics": [
+                    {
+                      "versions": [
+                        {
+                          "displayValue": "PrecioVenta",
+                          "validFor": {
+                            "startDateTime": "2020-06-26T05:00:00.000Z"
+                          },
+                          "valueType": "CodeTable",
+                          "name": "TipoPrecio",
+                          "id": "TipoPrecio",
+                          "valueTypeSpecification": {
+                            "id": "TipoPrecio"
+                          },
+                          "type": "infoModelSystemAttribute",
+                          "value": "PV",
+                          "properties": [
+                            {
+                              "isSelected": true,
+                              "value": "READONLY"
+                            }
+                          ]
+                        }
+                      ],
+                      "id": "TipoPrecio"
+                    }
+                  ],
+                  "markup": 0,
+                  "price": {
+                    "amount": 99999999,
+                    "units": {
+                      "code": "COP",
+                      "name": "COP"
+                    }
+                  },
+                  "percentage": 0,
+                  "name": "PromocioPrecioBaseTerminales",
+                  "id": "CT_TerPromocionPrecioBaseOTCD",
+                  "plaId": "CT_TerPromocionPrecioBaseOTCD",
+                  "popType": "PrecioVentaOne-Time",
+                  "frequency": "O"
+                }
+              ],
+              "id": "CT_TerPromocionPrecioBaseOTCD"
+            },
+            {
+              "versions": [
+                {
+                  "characteristics": [
+                    {
+                      "versions": [
+                        {
+                          "displayValue": "Excluido",
+                          "validFor": {
+                            "startDateTime": "2020-06-26T05:00:00.000Z"
+                          },
+                          "valueType": "CodeTable",
+                          "name": "ClaseImpuesto",
+                          "id": "ClaseImpuesto",
+                          "valueTypeSpecification": {
+                            "id": "ClaseImpuesto"
+                          },
+                          "type": "infoModelUserAttribute",
+                          "value": "Excluido",
+                          "properties": [
+                            {
+                              "isSelected": true,
+                              "value": "READONLY"
+                            },
+                            {
+                              "isSelected": true,
+                              "value": "SaveToSR"
+                            }
+                          ]
+                        }
+                      ],
+                      "id": "ClaseImpuesto"
+                    }
+                  ],
+                  "markup": 0,
+                  "price": {
+                    "amount": 0,
+                    "units": {
+                      "code": "COP",
+                      "name": "COP"
+                    }
+                  },
+                  "percentage": 0,
+                  "name": "CT_TerTaxIVA",
+                  "id": "CT_TerTaxIVA",
+                  "plaId": "CT_TerTaxIVA",
+                  "popType": "ImpuestoIVA",
+                  "frequency": "O"
+                }
+              ],
+              "id": "CT_TerTaxIVA"
+            },
+            {
+              "versions": [
+                {
+                  "characteristics": [
+                    {
+                      "versions": [
+                        {
+                          "displayValue": "N",
+                          "validFor": {
+                            "startDateTime": "2020-06-26T05:00:00.000Z"
+                          },
+                          "valueType": "CodeTable",
+                          "name": "Billing Pricing Type",
+                          "id": "billingPricingType",
+                          "valueTypeSpecification": {
+                            "id": "billingPricingType"
+                          },
+                          "value": "N"
+                        }
+                      ],
+                      "id": "billingPricingType"
+                    }
+                  ],
+                  "markup": 0,
+                  "price": {
+                    "amount": 1.499999985e7,
+                    "units": {
+                      "code": "COP",
+                      "name": "COP"
+                    }
+                  },
+                  "percentage": 0,
+                  "name": "PromocionFueraPrecioBaseTerminales",
+                  "id": "CT_TerPromocionFueraPrecioBaseOT",
+                  "plaId": "CT_TerPromocionFueraPrecioBaseOT",
+                  "popType": "Discount",
+                  "frequency": "O"
+                }
+              ],
+              "id": "CT_TerPromocionFueraPrecioBaseOT"
+            }
+          ],
+          "name": "IPHONE 6 PLUS 16GB APPLE SPACE GRAY",
+          "description": "iPhone6Plus16GBGrisEspacial",
+          "id": "PO_Equ70011252"
+        }
+      ],
+      "id": "PO_Equ70011252",
+      "href": "/ecm/ecmRT/v2/productOffering/PO_Equ70011252"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "estadoCivil": "1",
+    "descripcion": "Casado"
+  },
+  {
+    "id": "2",
+    "genero": "2",
+    "descripcion": "Soltero"
+  },
+  {
+    "id": "3",
+    "genero": "3",
+    "descripcion": "Unión Libre"
+  },
+  {
+    "id": "4",
+    "genero": "4",
+    "descripcion": "Separado"
+  },
+  {
+    "id": "5",
+    "genero": "5",
+    "descripcion": "Divorciado"
+  },
+  {
+    "id": "6",
+    "genero": "6",
+    "descripcion": "Viudo"
+  }
+]

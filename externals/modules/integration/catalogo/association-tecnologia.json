@@ -1,0 +1,30 @@
+{
+  "headerResponse": {
+    "endDate": "2020-06-30T13:31:05.129-05:00",
+    "idESBTransaction": "N53e7d5ac.65c4bc9.N2.173067ebac8.N7ffd",
+    "startDate": "2020-06-30T17:52:10.340Z",
+    "idBusinessTransaction": "1234567890"
+  },
+  "getProductOfferingResponse": [
+    {
+      "versions": [
+        {
+          "associations": [
+            {
+              "targetSpecificationType": "ProductSpecification",
+              "associationType": "contains",
+              "targetType": "Product",
+              "href": "/ecm/ecmRT/v2/productSpecification/PS_Financiamiento",
+              "targetSpecificationId": "PS_Financiamiento"
+            }
+          ],
+          "name": "Financiamiento Tecnologia",
+          "description": "Financiamiento Tecnologia",
+          "id": "PO_MotorAfinidadTecnologia"
+        }
+      ],
+      "id": "PO_MotorAfinidadTecnologia",
+      "href": "/ecm/ecmRT/v2/productOffering/PO_MotorAfinidadTecnologia"
+    }
+  ]
+}

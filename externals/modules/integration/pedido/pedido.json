@@ -1,0 +1,14 @@
+{
+  "headerResponse": {
+    "responseDate": "2020-07-08T15:31:44.077-05:00",
+    "traceabilityId": "b056dac1-a4e2-4849-a558-a68ed2d00adc"
+  },
+  "messageBody": "Venta Masiva Inspira 1062606411 se ha grabado (no se ha creado ninguna entrega)",
+  "saleDocument": "1062606411",
+  "logMessageList": [
+    {
+      "type": "S",
+      "text": "Venta Masiva Inspira 1062606411 se ha grabado (no se ha creado ninguna entrega)"
+    }
+  ]
+}

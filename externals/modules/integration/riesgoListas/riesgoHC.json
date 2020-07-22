@@ -1,0 +1,56 @@
+{
+   "historia":    {
+     "ciudad": "BOGOTA D.C.",
+     "clasificacionServicio": "A",
+     "clasificacionTecnologia": "A",
+     "estadoIdentificacion": "00",
+     "fechaExpedicion": "2005-05-04",
+     "nombres": "DIEGO FELIPE",
+     "numeroDigitado": "01018410087",
+     "primerApellido": "QUINTERO",
+     "puntaje": "546.0",
+     "respuesta": "13",
+     "score": "10",
+     "segundoApellido": "GUIZA",
+     "tipoIdDigitado": "1"
+  },
+  "matrizEqupos":    {
+     "calificacion": "A",
+     "cantidadEquipos": "0",
+     "cupoCredito": "3381049.55",
+     "id": 1276,
+     "pagoinicial12": " ",
+     "pagoinicial18": " ",
+     "pagoinicial24": " ",
+     "pagoinicial6": " ",
+     "region": "R1"
+  },
+  "matrizHogares":    {
+     "aplicaCmfAdelantado": "No",
+     "calificacion": "A",
+     "cantidadServicios": "1.0",
+     "dth": " ",
+     "duoPlay": "Si",
+     "id": 4758,
+     "internet": "Si",
+     "multiPlay": "Si",
+     "numeroCmfAdelantado": "0.0",
+     "pvr": "Si",
+     "region": "R1",
+     "telefoniaFija": "Si",
+     "triplePlay": "Si",
+     "tv": "Si"
+  },
+  "matrizPersonas":    {
+     "aplicaCMF": "No",
+     "calificacion": "A",
+     "cantidadLineasAlta": "1.0",
+     "cantidadLineasBaja": "9.0",
+     "cantidadLineasMax": "5.0",
+     "cantidadLineasMedia": "7.0",
+     "id": 4739,
+     "numeroCMF": " ",
+     "region": "R1",
+     "tipoPlan": "Abierto;Mixto"
+  }
+}

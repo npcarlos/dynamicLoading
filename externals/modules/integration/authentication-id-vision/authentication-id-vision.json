@@ -1,0 +1,49 @@
+{
+    "headerResponse": {
+      "responseDate": "2020-06-05T10:57:55.779-05:00",
+      "traceabilityId": "6b7a26f3-b07e-46a7-b8a3-de19d2ca4ef0"
+    },
+    "DCResponse": {
+      "Status": "Success",
+      "ResponseInfo": {
+        "ApplicationId": 1090411,
+        "SolutionSetInstanceId": "dad2017c-c908-4c53-bf4a-fd8fa700367e",
+        "CurrentQueue": "PhoneSelection"
+      },
+      "Authentication": {
+        "Status": "PasswordHasExpired",
+        "Token": "f596691d-d681-46c3-9726-2fc0d030a966"
+      },
+      "ContextData": {
+        "Field": [
+          {
+            "key": "HasError",
+            "content": "false"
+          },
+          {
+            "key": "ValidationMethod"
+          },
+          {
+            "key": "ReturnMessage"
+          },
+          {
+            "key": "MobilePhoneList",
+            "content": "Número(s) no aplica(n),3164595539,3165295827,3008944836,"
+          },
+          {
+            "key": "LandLineList",
+            "content": "Número(s) no aplica(n),19990177,19991177,"
+          },
+          {
+            "key": "SelectedPhoneNumber"
+          },
+          {
+            "key": "PhoneType"
+          },
+          {
+            "key": "Action"
+          }
+        ]
+      }
+    }
+  }

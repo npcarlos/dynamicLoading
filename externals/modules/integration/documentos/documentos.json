@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "tdo_codigo": "CC",
+    "tdo_descripcion": "Cedula de ciudadania y NUIP",
+    "estado": 1,
+    "usuarioCreacion": "SYSTEM",
+    "fechaCreacion": "17/02/20 06:28:34,738107000 PM",
+    "usuarioActualizacion": "SYSTEM",
+    "fechaActualizacion": "17/02/20 06:28:34,738107000 PM"
+  },
+  {
+    "id": "2",
+    "tdo_codigo": "NIT",
+    "tdo_descripcion": "Numero de identificacion tributaria",
+    "estado": 1,
+    "usuarioCreacion": "SYSTEM",
+    "fechaCreacion": "17/02/20 06:28:34,738107000 PM",
+    "usuarioActualizacion": "SYSTEM",
+    "fechaActualizacion": "17/02/20 06:28:34,738107000 PM"
+  },
+  {
+    "id": "3",
+    "tdo_codigo": "PJE",
+    "tdo_descripcion": "Persona juridica del extranjero",
+    "estado": 1,
+    "usuarioCreacion": "SYSTEM",
+    "fechaCreacion": "17/02/20 06:28:34,738107000 PM",
+    "usuarioActualizacion": "SYSTEM",
+    "fechaActualizacion": "17/02/20 06:28:34,738107000 PM"
+  },
+  {
+    "id": "4",
+    "tdo_codigo": "CE",
+    "tdo_descripcion": "Cedula de extranjeria",
+    "estado": 1,
+    "usuarioCreacion": "SYSTEM",
+    "fechaCreacion": "17/02/20 06:28:34,738107000 PM",
+    "usuarioActualizacion": "SYSTEM",
+    "fechaActualizacion": "17/02/20 06:28:34,738107000 PM"
+  },
+  {
+    "id": "5",
+    "tdo_codigo": "PAS",
+    "tdo_descripcion": "Pasaporte",
+    "estado": 1,
+    "usuarioCreacion": "SYSTEM",
+    "fechaCreacion": "17/02/20 06:28:34,738107000 PM",
+    "usuarioActualizacion": "SYSTEM",
+    "fechaActualizacion": "17/02/20 06:28:34,738107000 PM"
+  },
+  {
+    "id": "6",
+    "tdo_codigo": "CD",
+    "tdo_descripcion": "Carne Diplomatico",
+    "estado": 1,
+    "usuarioCreacion": "SYSTEM",
+    "fechaCreacion": "17/02/20 06:28:34,738107000 PM",
+    "usuarioActualizacion": "SYSTEM",
+    "fechaActualizacion": "17/02/20 06:28:34,738107000 PM"
+  },
+  {
+    "id": "7",
+    "tdo_codigo": "TI",
+    "tdo_descripcion": "Tarjeta de Identidad",
+    "estado": 1,
+    "usuarioCreacion": "SYSTEM",
+    "fechaCreacion": "17/02/20 06:28:34,738107000 PM",
+    "usuarioActualizacion": "SYSTEM",
+    "fechaActualizacion": "17/02/20 06:28:34,738107000 PM"
+  },
+  {
+    "id": "8",
+    "tdo_codigo": "DNI",
+    "tdo_descripcion": "Documento Nacional de Identidad",
+    "estado": 1,
+    "usuarioCreacion": "SYSTEM",
+    "fechaCreacion": "17/02/20 06:28:34,738107000 PM",
+    "usuarioActualizacion": "SYSTEM",
+    "fechaActualizacion": "17/02/20 06:28:34,738107000 PM"
+  },
+  {
+    "id": "9",
+    "tdo_codigo": "PEP",
+    "tdo_descripcion": "Permiso Especial de Permanencia",
+    "estado": 1,
+    "usuarioCreacion": "SYSTEM",
+    "fechaCreacion": "17/02/20 06:28:34,738107000 PM",
+    "usuarioActualizacion": "SYSTEM",
+    "fechaActualizacion": "17/02/20 06:28:34,738107000 PM"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "responseStatus": {
+    "code": "FS_ESB_0"
+  },
+  "resources": {
+    "resource": [
+      {
+        "number": "3109876543"
+      },
+      {
+        "number": "3145678236"
+      }
+    ]
+  }
+}

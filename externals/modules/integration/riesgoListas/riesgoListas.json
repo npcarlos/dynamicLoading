@@ -1,0 +1,45 @@
+{
+  "headerResponse": {
+    "responseDate": "2020-04-29T10:25:17.369-05:00",
+    "traceabilityId": "bc956d4d-8c1f-452c-805c-239ca96430b0"
+  },
+  "infoList": [
+    {
+      "descriptionError": {
+        "code": "-1",
+        "message": "No hay datos asociados a su busqueda"
+      }
+    },
+    {
+      "lists": {
+        "list": "CLIENTES",
+        "action": "No quiere comprar",
+        "reason": "Cliente no quiere que le venda"
+      }
+    },
+    {
+      "lists": {
+        "list": "CORREOS",
+        "action": "No quiere comprar",
+        "reason": "Posible Suplantación"
+      }
+    }
+  ],
+  "lists": [
+    {
+      "list": "ONU",
+      "coincidence": "true",
+      "observations": ". Puntuación: 100 ONU (Individuo - Alias) - Omar"
+    },
+    {
+      "list": "OFAC",
+      "coincidence": "true",
+      "observations": ". Puntuación: 100 , OFAC ALIAS (Individuo) - OMAR"
+    },
+    {
+      "list": "FBI",
+      "coincidence": "false",
+      "observations": null
+    }
+  ]
+}

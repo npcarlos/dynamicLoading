@@ -1,0 +1,37 @@
+{
+  "headerResponse": {
+    "responseDate": "2020-05-27T14:45:21.098-05:00",
+    "traceabilityId": "388d5d23-9d78-457e-83b6-649b244eda96"
+  },
+  "distributorSocialName": "ComunicaciÃ³n Celular S.A. Comcel.S.A",
+  "taxIdentificationNumberType": "CO_NIT",
+  "taxIdentificationNumber": "8001539937",
+  "imeiNumber": "057101502111407000",
+  "clientName": "CENTRACOM_LA UNION_CENTRO1",
+  "taxIdentificationNumberType1": "31",
+  "taxIdentificationNumber1": "8000835324",
+  "businessDocumentNumber": "3097916522",
+  "creationRecordDate": "2019-08-02",
+  "recordedTime": "06:34:01",
+  "delivery": "1464743247",
+  "recordedTime1": "06:34:00",
+  "businessDocumentNumber1": "1055337561",
+  "commercialDocumentDate": "2019-08-02",
+  "serialNumber": "057101502111407000",
+  "shortTextMaterial": "CLARO USIM LTE MULTI 256K P15.1 POS",
+  "materialNumber": "000000000007012874",
+  "materialType": "TE08",
+  "clienteNumber1": "D250600007",
+  "town": "LA UNION",
+  "invoiceType": "ZF2",
+  "center": "C003",
+  "salesOffice": "D210",
+  "amount": "2000.00",
+  "saleAddressPoint": "VIRTUAL",
+  "messageList": [
+    {
+      "type": "S",
+      "text": "DATA RETURNED"
+    }
+  ]
+}

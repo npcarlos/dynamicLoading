@@ -1,0 +1,61 @@
+{
+  "_responseStatus": {
+    "code": "FS_ESB_0"
+  },
+  "individualCustomerId": "93000000119606",
+  "activeFlag": 1,
+  "segment": 0,
+  "protectedData": 0,
+  "name": "LINA   ROJAS GUEVARA",
+  "firstName": "LINA",
+  "secondName": "ROJAS GUEVARA",
+  "documentType": 1,
+  "documentNumber": "56890470",
+  "gender": 0,
+  "digitalDate": "2020-04-08T14:33:25.448Z",
+  "maritalStatus": 0,
+  "contactInfo": [
+    {
+      "contactType": "4",
+      "contactInfo": "573102345678",
+      "isprimary": "S"
+    },
+    {
+      "contactType": "2",
+      "contactInfo": "5712000001",
+      "isprimary": "S"
+    },
+    {
+      "contactType": "1",
+      "contactInfo": "pruebactu30@gmail.com",
+      "isprimary": "S"
+    }
+  ],
+  "listadoContratosBSCS": [
+    {
+      "customerId": "93000000088716"
+    },
+    {
+      "customerId": "93000000088718"
+    },
+    {
+      "customerId": "93000000088720"
+    }
+  ],
+  "listadoDirecciones": [
+    {
+      "district": "11001",
+      "cityArea": "BOGOTA",
+      "tipo": "3",
+      "addressUsage": "234534523",
+      "addressText": "CLL 32 24 35 TORR 1 APTO 302 CENTRO INTERNACIONAL"
+    },
+    {
+      "district": "11001",
+      "cityArea": "MEDELLIN",
+      "tipo": "3",
+      "addressUsage": "234534523",
+      "addressText": "CLL 24 DORADO 009 APTO 302 CENTRO INTERNACIONAL"
+    }
+  ]
+}

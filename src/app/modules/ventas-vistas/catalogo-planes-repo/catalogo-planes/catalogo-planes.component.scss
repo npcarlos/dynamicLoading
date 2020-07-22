@@ -1,0 +1,89 @@
+.modal-detail {
+  font-size: 16px;
+  padding: 37px 0;
+
+  .md-description,
+  .md-config {
+    border-bottom: 1px solid #dee2e6;
+  }
+
+  .md-config,
+  .md-footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .md-value {
+    font-size: 36px;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    font-weight: 700;
+  }
+
+  .md-footer {
+    padding-bottom: 0;
+    text-align: right;
+    .md-amount {
+      margin: 16px 0;
+    }
+  }
+  .form-group.row .col-sm-3:first-child {
+    align-items: center;
+    display: flex;
+  }
+
+  .modal-hardware h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 22px;
+  }
+
+  .modal-hardware .row.md-description:first-child {
+    border: none;
+    margin-bottom: 48px;
+  }
+
+  h5 {
+    font-size: 21px;
+    font-weight: 700;
+  }
+
+  ul {
+    padding: 0;
+    li {
+      list-style: none;
+    }
+  }
+  li.item-asocia {
+    padding: 7px 0;
+  }
+  button.close {
+    z-index: 90;
+    position: absolute;
+    right: 18px;
+    font-size: 39px;
+    top: 7px;
+  }
+
+  .modal-hardware h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 22px;
+  }
+
+  .modal-detail .md-description {
+    margin-right: 21px;
+  }
+
+  .md-description.md-header {
+    border-bottom: none;
+    margin-bottom: 39px;
+  }
+
+  .md-info > div {
+    margin-right: 6px;
+  }
+  .md-footer {
+    padding-right: 0;
+  }
+}

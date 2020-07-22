@@ -1,0 +1,29 @@
+<!--app-catalogo-planes
+  [planes]="planes"
+  [matrizRiesgoHc]="matrizRiesgo"
+  [previousButton]="previousButton"
+  [nextButton]="nextButton"
+  (onMostrarPlan)="mostrarDetallesPlan(modal, $event)"
+  (onAgregarPlan)="agregarCarritoPlan(modal, $event)"
+  (onPreviousButtonClicked)="previous()"
+  (onNextButtonClicked)="next()"
+></app-catalogo-planes>
+
+<div
+  class="modal fade"
+  #modal
+  id="modalPlanSeleccionado"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="modalPlanSeleccionadoLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-xl">
+    <app-modal-planes
+      [planSeleccionado]="planSeleccionado"
+      (cantidadPlanes)="agregarCarritoModal($event)"
+    ></app-modal-planes>
+  </div>
+</div-->
+
+Catalogo planes Lógica

@@ -24,7 +24,10 @@
     "@angular/platform-browser-dynamic": "~9.1.4",
     "@angular/router": "~9.1.4",
     "@angular/upgrade": "~9.1.4",
+    "@ngrx/effects": "^9.2.0",
+    "@ngrx/store": "^9.2.0",
     "angular-in-memory-web-api": "~0.11.0",
+    "immutable": "^4.0.0-rc.12",
     "rxjs": "~6.5.4",
     "zone.js": "~0.10.3"
   },

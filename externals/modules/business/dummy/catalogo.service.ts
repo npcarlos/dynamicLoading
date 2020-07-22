@@ -1,6 +1,7 @@
+
 import { Injectable } from '@angular/core';
 
-import { PlanesComponent } from '../../../../src/app/modules/ventas-vistas/catalogo-planes/vista-catalogo-planes/planes.component';
+import { VistaCatalogoPlanesComponent } from '../../../../src/app/modules/ventas-vistas/catalogo-planes/vista-catalogo-planes/vista-catalogo-planes.component';
 import { EquiposComponent } from '../../../../src/app/modules/ventas-vistas/catalogo-equipos/vista-catalogo-equipos/equipos.component';
 import { CatalogoItem } from '../../../../src/app/catalogo-item';
 
@@ -12,7 +13,7 @@ export class CatalogoService {
     return [
       new CatalogoItem(EquiposComponent, {name: 'Bombasto', bio: 'Brave as they come'}),
 
-      new CatalogoItem(PlanesComponent,   {headline: 'Hiring for several positions',
+      new CatalogoItem(VistaCatalogoPlanesComponent,   {headline: 'Hiring for several positions',
                                         body: 'Submit your resume today!'}),
     ];
   }

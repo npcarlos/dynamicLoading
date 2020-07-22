@@ -2,6 +2,11 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+    "paths": {
+      "environment": ["src/environments/environment"],
+      "~modules/*": ["externals/modules/*"],
+      "~libraries/*": ["externals/libraries/*"]
+    },
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,

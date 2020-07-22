@@ -1,0 +1,853 @@
+{
+  "ok": true,
+  "messagge": "success",
+  "body": {
+    "scID": "272374",
+    "quoteID": null,
+    "items": [
+      {
+        "itemParentId": "2058252714",
+        "poIdMain": "PO_MovPosPlanClaro18000Seg",
+        "items": [
+          {
+            "itemID": "2058252714",
+            "poID": "PO_MovPosBasico",
+            "priceDetails": []
+          },
+          {
+            "itemID": "2058252854",
+            "poID": "PO_MovPosPlanClaro18000Seg",
+            "priceDetails": [
+              {
+                "amount": 47073.17,
+                "name": "Cargo Base Mensual Móvil Postpago",
+                "poID": "POP_MovPosBase"
+              },
+              {
+                "amount": 8943.9023,
+                "name": "Impuesto IVA",
+                "poID": "Tax_IVA"
+              },
+              {
+                "amount": 3592.5804,
+                "name": "Impuesto Impoconsumo",
+                "poID": "Tax_Impoconsumo"
+              },
+              {
+                "amount": 47073.17,
+                "name": "Cargo Fijo Mensual Voz Móvil Postpago",
+                "poID": "POP_MovPosVozREC"
+              },
+              {
+                "amount": 0.0,
+                "name": "",
+                "poID": "POP_MovPosPlanDatosUSG"
+              },
+              {
+                "amount": 0.0,
+                "name": "",
+                "poID": "POP_MovPosPlanSmsUSG"
+              },
+              {
+                "amount": 0.0,
+                "name": "",
+                "poID": "POP_MovPosPlanVozTDUNT"
+              },
+              {
+                "amount": 0.0,
+                "name": "",
+                "poID": "POP_MovPosPlanPAM"
+              },
+              {
+                "amount": 0.0,
+                "name": "",
+                "poID": "POP_MovPosPlanVozUSG"
+              }
+            ]
+          },
+          {
+            "itemID": "2058253197",
+            "poID": "PO_MovPosFunBloqCont",
+            "priceDetails": []
+          },
+          {
+            "itemID": "2058253298",
+            "poID": "PO_MovPosFunBloq",
+            "priceDetails": [
+              {
+                "amount": 0.0,
+                "name": "Cargo Base Mensual Móvil Postpago",
+                "poID": "POP_MovPosBase"
+              },
+              {
+                "amount": 0.0,
+                "name": "Impuesto IVA",
+                "poID": "Tax_IVA"
+              },
+              {
+                "amount": 0.0,
+                "name": "Impuesto Impoconsumo",
+                "poID": "Tax_Impoconsumo"
+              },
+              {
+                "amount": 0.0,
+                "name": "Cargo Fijo Mensual Otros Móvil Postpago",
+                "poID": "POP_MovPosFunBloqREC"
+              }
+            ]
+          },
+          {
+            "itemID": "2058253525",
+            "poID": "PO_MovPosUsoMonedero",
+            "priceDetails": []
+          },
+          {
+            "itemID": "2058253678",
+            "poID": "PO_MovPosUsoOtros",
+            "priceDetails": [
+              {
+                "amount": 0.0,
+                "name": "",
+                "poID": "POP_MovPosPlanMmsUSG"
+              },
+              {
+                "amount": 0.0,
+                "name": "",
+                "poID": "POP_MovPosPlanVideoLlamadaUSG"
+              }
+            ]
+          },
+          {
+            "itemID": "2058253829",
+            "poID": "PO_MovPosUsoRoaming",
+            "priceDetails": [
+              {
+                "amount": 0.0,
+                "name": "Uso Plan Roaming Datos Móvil Postpago",
+                "poID": "POP_MovPosPlanRoamingDUSG"
+              },
+              {
+                "amount": 0.0,
+                "name": "Uso Plan Roaming SMS Móvil Postpago",
+                "poID": "POP_MovPosPlanRoamingSUSG"
+              },
+              {
+                "amount": 0.0,
+                "name": "Uso Plan Roaming Voz Móvil Postpago",
+                "poID": "POP_MovPosPlanRoamingVUSG"
+              }
+            ]
+          },
+          {
+            "itemID": "2058253994",
+            "poID": "PO_MovPosFunBloqRbt",
+            "priceDetails": []
+          },
+          {
+            "itemID": "2058254141",
+            "poID": "PO_MovPosOptClaroVideo",
+            "priceDetails": [
+              {
+                "amount": 0.0,
+                "name": "Cargo Base Mensual Móvil Postpago",
+                "poID": "POP_MovPosBase"
+              },
+              {
+                "amount": 0.0,
+                "name": "Impuesto IVA",
+                "poID": "Tax_IVA"
+              },
+              {
+                "amount": 0.0,
+                "name": "Cargo Fijo Mensual Otros Móvil Postpago",
+                "poID": "POP_OtrPosClaroVideoREC"
+              }
+            ]
+          },
+          {
+            "itemID": "2058254321",
+            "poID": "PO_MovPosOptCobilling",
+            "priceDetails": []
+          },
+          {
+            "itemID": "2058254492",
+            "poID": "PO_SIM7012268",
+            "priceDetails": [
+              {
+                "amount": 380.0,
+                "name": "IVA SimCard",
+                "poID": "Tax_IVA"
+              },
+              {
+                "amount": 2000.0,
+                "name": "PrecioBaseSimCard",
+                "poID": "POP_SimCardPrecioBaseOTC"
+              },
+              {
+                "amount": 2000.0,
+                "name": "PromocioPrecioBaseSimcard",
+                "poID": "POP_SimCardPromoPrecioBaseOTC"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "itemParentId": "2058258589",
+        "poIdMain": "PO_MovPosPlanClaro18000Seg",
+        "items": [
+          {
+            "itemID": "2058258589",
+            "poID": "PO_MovPosBasico",
+            "priceDetails": []
+          },
+          {
+            "itemID": "2058259626",
+            "poID": "PO_MovPosPlanClaro18000Seg",
+            "priceDetails": [
+              {
+                "amount": 47073.17,
+                "name": "Cargo Base Mensual Móvil Postpago",
+                "poID": "POP_MovPosBase"
+              },
+              {
+                "amount": 8943.9023,
+                "name": "Impuesto IVA",
+                "poID": "Tax_IVA"
+              },
+              {
+                "amount": 3592.5804,
+                "name": "Impuesto Impoconsumo",
+                "poID": "Tax_Impoconsumo"
+              },
+              {
+                "amount": 47073.17,
+                "name": "Cargo Fijo Mensual Voz Móvil Postpago",
+                "poID": "POP_MovPosVozREC"
+              },
+              {
+                "amount": 0.0,
+                "name": "",
+                "poID": "POP_MovPosPlanDatosUSG"
+              },
+              {
+                "amount": 0.0,
+                "name": "",
+                "poID": "POP_MovPosPlanSmsUSG"
+              },
+              {
+                "amount": 0.0,
+                "name": "",
+                "poID": "POP_MovPosPlanVozTDUNT"
+              },
+              {
+                "amount": 0.0,
+                "name": "",
+                "poID": "POP_MovPosPlanPAM"
+              },
+              {
+                "amount": 0.0,
+                "name": "",
+                "poID": "POP_MovPosPlanVozUSG"
+              }
+            ]
+          },
+          {
+            "itemID": "2058260596",
+            "poID": "PO_MovPosFunBloqCont",
+            "priceDetails": []
+          },
+          {
+            "itemID": "2058260854",
+            "poID": "PO_MovPosFunBloq",
+            "priceDetails": [
+              {
+                "amount": 0.0,
+                "name": "Cargo Base Mensual Móvil Postpago",
+                "poID": "POP_MovPosBase"
+              },
+              {
+                "amount": 0.0,
+                "name": "Impuesto IVA",
+                "poID": "Tax_IVA"
+              },
+              {
+                "amount": 0.0,
+                "name": "Impuesto Impoconsumo",
+                "poID": "Tax_Impoconsumo"
+              },
+              {
+                "amount": 0.0,
+                "name": "Cargo Fijo Mensual Otros Móvil Postpago",
+                "poID": "POP_MovPosFunBloqREC"
+              }
+            ]
+          },
+          {
+            "itemID": "2058261402",
+            "poID": "PO_MovPosUsoMonedero",
+            "priceDetails": []
+          },
+          {
+            "itemID": "2058261799",
+            "poID": "PO_MovPosUsoOtros",
+            "priceDetails": [
+              {
+                "amount": 0.0,
+                "name": "",
+                "poID": "POP_MovPosPlanMmsUSG"
+              },
+              {
+                "amount": 0.0,
+                "name": "",
+                "poID": "POP_MovPosPlanVideoLlamadaUSG"
+              }
+            ]
+          },
+          {
+            "itemID": "2058262225",
+            "poID": "PO_MovPosUsoRoaming",
+            "priceDetails": [
+              {
+                "amount": 0.0,
+                "name": "Uso Plan Roaming Datos Móvil Postpago",
+                "poID": "POP_MovPosPlanRoamingDUSG"
+              },
+              {
+                "amount": 0.0,
+                "name": "Uso Plan Roaming SMS Móvil Postpago",
+                "poID": "POP_MovPosPlanRoamingSUSG"
+              },
+              {
+                "amount": 0.0,
+                "name": "Uso Plan Roaming Voz Móvil Postpago",
+                "poID": "POP_MovPosPlanRoamingVUSG"
+              }
+            ]
+          },
+          {
+            "itemID": "2058262634",
+            "poID": "PO_MovPosFunBloqRbt",
+            "priceDetails": []
+          },
+          {
+            "itemID": "2058263056",
+            "poID": "PO_MovPosOptClaroVideo",
+            "priceDetails": [
+              {
+                "amount": 0.0,
+                "name": "Cargo Base Mensual Móvil Postpago",
+                "poID": "POP_MovPosBase"
+              },
+              {
+                "amount": 0.0,
+                "name": "Impuesto IVA",
+                "poID": "Tax_IVA"
+              },
+              {
+                "amount": 0.0,
+                "name": "Cargo Fijo Mensual Otros Móvil Postpago",
+                "poID": "POP_OtrPosClaroVideoREC"
+              }
+            ]
+          },
+          {
+            "itemID": "2058263480",
+            "poID": "PO_MovPosOptCobilling",
+            "priceDetails": []
+          },
+          {
+            "itemID": "2058263899",
+            "poID": "PO_SIM7012268",
+            "priceDetails": [
+              {
+                "amount": 380.0,
+                "name": "IVA SimCard",
+                "poID": "Tax_IVA"
+              },
+              {
+                "amount": 2000.0,
+                "name": "PrecioBaseSimCard",
+                "poID": "POP_SimCardPrecioBaseOTC"
+              },
+              {
+                "amount": 2000.0,
+                "name": "PromocioPrecioBaseSimcard",
+                "poID": "POP_SimCardPromoPrecioBaseOTC"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "itemParentId": "2058268788",
+        "poIdMain": "PO_Tec7009695",
+        "items": [
+          {
+            "itemID": "2058268788",
+            "poID": "PO_Tec7009695",
+            "priceDetails": [
+              {
+                "amount": 1905882.0,
+                "name": "PrecioBaseTerminales",
+                "poID": "CT_TecPrecioBaseOTC"
+              },
+              {
+                "amount": 1905882.0,
+                "name": "Precio Venta",
+                "poID": "CT_TecPromocionPrecioBaseOTCD"
+              },
+              {
+                "amount": 0.0,
+                "name": "IVA Tecnologia",
+                "poID": "CT_TecTaxIVA"
+              },
+              {
+                "amount": 0.0,
+                "name": "PromocionFueraPrecioBaseTecnologia",
+                "poID": "CT_TecPromocionFueraPrecioBaseOT"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "itemParentId": "2058268796",
+        "poIdMain": "PO_Equ7008496",
+        "items": [
+          {
+            "itemID": "205826879653",
+            "poID": "PO_Equ7008496"
+          },
+          {
+            "itemID": "2058252854",
+            "poID": "PO_MovPosPlanClaro18000Seg",
+            "priceDetails": [
+              {
+                "amount": 47073.17,
+                "name": "Cargo Base Mensual Móvil Postpago",
+                "poID": "POP_MovPosBase"
+              },
+              {
+                "amount": 8943.9023,
+                "name": "Impuesto IVA",
+                "poID": "Tax_IVA"
+              },
+              {
+                "amount": 3592.5804,
+                "name": "Impuesto Impoconsumo",
+                "poID": "Tax_Impoconsumo"
+              },
+              {
+                "amount": 47073.17,
+                "name": "Cargo Fijo Mensual Voz Móvil Postpago",
+                "poID": "POP_MovPosVozREC"
+              },
+              {
+                "amount": 0.0,
+                "name": "",
+                "poID": "POP_MovPosPlanDatosUSG"
+              },
+              {
+                "amount": 0.0,
+                "name": "",
+                "poID": "POP_MovPosPlanSmsUSG"
+              },
+              {
+                "amount": 0.0,
+                "name": "",
+                "poID": "POP_MovPosPlanVozTDUNT"
+              },
+              {
+                "amount": 0.0,
+                "name": "",
+                "poID": "POP_MovPosPlanPAM"
+              },
+              {
+                "amount": 0.0,
+                "name": "",
+                "poID": "POP_MovPosPlanVozUSG"
+              }
+            ]
+          },
+          {
+            "itemID": "2058253197",
+            "poID": "PO_MovPosFunBloqCont",
+            "priceDetails": []
+          },
+          {
+            "itemID": "2058253298",
+            "poID": "PO_MovPosFunBloq",
+            "priceDetails": [
+              {
+                "amount": 0.0,
+                "name": "Cargo Base Mensual Móvil Postpago",
+                "poID": "POP_MovPosBase"
+              },
+              {
+                "amount": 0.0,
+                "name": "Impuesto IVA",
+                "poID": "Tax_IVA"
+              },
+              {
+                "amount": 0.0,
+                "name": "Impuesto Impoconsumo",
+                "poID": "Tax_Impoconsumo"
+              },
+              {
+                "amount": 0.0,
+                "name": "Cargo Fijo Mensual Otros Móvil Postpago",
+                "poID": "POP_MovPosFunBloqREC"
+              }
+            ]
+          },
+          {
+            "itemID": "2058253525",
+            "poID": "PO_MovPosUsoMonedero",
+            "priceDetails": []
+          },
+          {
+            "itemID": "2058253678",
+            "poID": "PO_MovPosUsoOtros",
+            "priceDetails": [
+              {
+                "amount": 0.0,
+                "name": "",
+                "poID": "POP_MovPosPlanMmsUSG"
+              },
+              {
+                "amount": 0.0,
+                "name": "",
+                "poID": "POP_MovPosPlanVideoLlamadaUSG"
+              }
+            ]
+          },
+          {
+            "itemID": "2058253829",
+            "poID": "PO_MovPosUsoRoaming",
+            "priceDetails": [
+              {
+                "amount": 0.0,
+                "name": "Uso Plan Roaming Datos Móvil Postpago",
+                "poID": "POP_MovPosPlanRoamingDUSG"
+              },
+              {
+                "amount": 0.0,
+                "name": "Uso Plan Roaming SMS Móvil Postpago",
+                "poID": "POP_MovPosPlanRoamingSUSG"
+              },
+              {
+                "amount": 0.0,
+                "name": "Uso Plan Roaming Voz Móvil Postpago",
+                "poID": "POP_MovPosPlanRoamingVUSG"
+              }
+            ]
+          },
+          {
+            "itemID": "2058253994",
+            "poID": "PO_MovPosFunBloqRbt",
+            "priceDetails": []
+          },
+          {
+            "itemID": "2058254141",
+            "poID": "PO_MovPosOptClaroVideo",
+            "priceDetails": [
+              {
+                "amount": 0.0,
+                "name": "Cargo Base Mensual Móvil Postpago",
+                "poID": "POP_MovPosBase"
+              },
+              {
+                "amount": 0.0,
+                "name": "Impuesto IVA",
+                "poID": "Tax_IVA"
+              },
+              {
+                "amount": 0.0,
+                "name": "Cargo Fijo Mensual Otros Móvil Postpago",
+                "poID": "POP_OtrPosClaroVideoREC"
+              }
+            ]
+          },
+          {
+            "itemID": "2058254321",
+            "poID": "PO_MovPosOptCobilling",
+            "priceDetails": []
+          },
+          {
+            "itemID": "2058254492",
+            "poID": "PO_SIM7012268",
+            "priceDetails": [
+              {
+                "amount": 380.0,
+                "name": "IVA SimCard",
+                "poID": "Tax_IVA"
+              },
+              {
+                "amount": 2000.0,
+                "name": "PrecioBaseSimCard",
+                "poID": "POP_SimCardPrecioBaseOTC"
+              },
+              {
+                "amount": 2000.0,
+                "name": "PromocioPrecioBaseSimcard",
+                "poID": "POP_SimCardPromoPrecioBaseOTC"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "itemParentId": "2058258589",
+        "poIdMain": "PO_MovPosPlanClaro18000Seg",
+        "items": [
+          {
+            "itemID": "2058258589",
+            "poID": "PO_MovPosBasico",
+            "priceDetails": []
+          },
+          {
+            "itemID": "2058259626",
+            "poID": "PO_MovPosPlanClaro18000Seg",
+            "priceDetails": [
+              {
+                "amount": 47073.17,
+                "name": "Cargo Base Mensual Móvil Postpago",
+                "poID": "POP_MovPosBase"
+              },
+              {
+                "amount": 8943.9023,
+                "name": "Impuesto IVA",
+                "poID": "Tax_IVA"
+              },
+              {
+                "amount": 3592.5804,
+                "name": "Impuesto Impoconsumo",
+                "poID": "Tax_Impoconsumo"
+              },
+              {
+                "amount": 47073.17,
+                "name": "Cargo Fijo Mensual Voz Móvil Postpago",
+                "poID": "POP_MovPosVozREC"
+              },
+              {
+                "amount": 0.0,
+                "name": "",
+                "poID": "POP_MovPosPlanDatosUSG"
+              },
+              {
+                "amount": 0.0,
+                "name": "",
+                "poID": "POP_MovPosPlanSmsUSG"
+              },
+              {
+                "amount": 0.0,
+                "name": "",
+                "poID": "POP_MovPosPlanVozTDUNT"
+              },
+              {
+                "amount": 0.0,
+                "name": "",
+                "poID": "POP_MovPosPlanPAM"
+              },
+              {
+                "amount": 0.0,
+                "name": "",
+                "poID": "POP_MovPosPlanVozUSG"
+              }
+            ]
+          },
+          {
+            "itemID": "2058260596",
+            "poID": "PO_MovPosFunBloqCont",
+            "priceDetails": []
+          },
+          {
+            "itemID": "2058260854",
+            "poID": "PO_MovPosFunBloq",
+            "priceDetails": [
+              {
+                "amount": 0.0,
+                "name": "Cargo Base Mensual Móvil Postpago",
+                "poID": "POP_MovPosBase"
+              },
+              {
+                "amount": 0.0,
+                "name": "Impuesto IVA",
+                "poID": "Tax_IVA"
+              },
+              {
+                "amount": 0.0,
+                "name": "Impuesto Impoconsumo",
+                "poID": "Tax_Impoconsumo"
+              },
+              {
+                "amount": 0.0,
+                "name": "Cargo Fijo Mensual Otros Móvil Postpago",
+                "poID": "POP_MovPosFunBloqREC"
+              }
+            ]
+          },
+          {
+            "itemID": "2058261402",
+            "poID": "PO_MovPosUsoMonedero",
+            "priceDetails": []
+          },
+          {
+            "itemID": "2058261799",
+            "poID": "PO_MovPosUsoOtros",
+            "priceDetails": [
+              {
+                "amount": 0.0,
+                "name": "",
+                "poID": "POP_MovPosPlanMmsUSG"
+              },
+              {
+                "amount": 0.0,
+                "name": "",
+                "poID": "POP_MovPosPlanVideoLlamadaUSG"
+              }
+            ]
+          },
+          {
+            "itemID": "2058262225",
+            "poID": "PO_MovPosUsoRoaming",
+            "priceDetails": [
+              {
+                "amount": 0.0,
+                "name": "Uso Plan Roaming Datos Móvil Postpago",
+                "poID": "POP_MovPosPlanRoamingDUSG"
+              },
+              {
+                "amount": 0.0,
+                "name": "Uso Plan Roaming SMS Móvil Postpago",
+                "poID": "POP_MovPosPlanRoamingSUSG"
+              },
+              {
+                "amount": 0.0,
+                "name": "Uso Plan Roaming Voz Móvil Postpago",
+                "poID": "POP_MovPosPlanRoamingVUSG"
+              }
+            ]
+          },
+          {
+            "itemID": "2058262634",
+            "poID": "PO_MovPosFunBloqRbt",
+            "priceDetails": []
+          },
+          {
+            "itemID": "2058263056",
+            "poID": "PO_MovPosOptClaroVideo",
+            "priceDetails": [
+              {
+                "amount": 0.0,
+                "name": "Cargo Base Mensual Móvil Postpago",
+                "poID": "POP_MovPosBase"
+              },
+              {
+                "amount": 0.0,
+                "name": "Impuesto IVA",
+                "poID": "Tax_IVA"
+              },
+              {
+                "amount": 0.0,
+                "name": "Cargo Fijo Mensual Otros Móvil Postpago",
+                "poID": "POP_OtrPosClaroVideoREC"
+              }
+            ]
+          },
+          {
+            "itemID": "2058263480",
+            "poID": "PO_MovPosOptCobilling",
+            "priceDetails": []
+          },
+          {
+            "itemID": "2058263899",
+            "poID": "PO_SIM7012268",
+            "priceDetails": [
+              {
+                "amount": 380.0,
+                "name": "IVA SimCard",
+                "poID": "Tax_IVA"
+              },
+              {
+                "amount": 2000.0,
+                "name": "PrecioBaseSimCard",
+                "poID": "POP_SimCardPrecioBaseOTC"
+              },
+              {
+                "amount": 2000.0,
+                "name": "PromocioPrecioBaseSimcard",
+                "poID": "POP_SimCardPromoPrecioBaseOTC"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "itemParentId": "2058268788",
+        "poIdMain": "PO_Tec7009695",
+        "items": [
+          {
+            "itemID": "2058268788",
+            "poID": "PO_Tec7009695",
+            "priceDetails": [
+              {
+                "amount": 1905882.0,
+                "name": "PrecioBaseTerminales",
+                "poID": "CT_TecPrecioBaseOTC"
+              },
+              {
+                "amount": 1905882.0,
+                "name": "Precio Venta",
+                "poID": "CT_TecPromocionPrecioBaseOTCD"
+              },
+              {
+                "amount": 0.0,
+                "name": "IVA Tecnologia",
+                "poID": "CT_TecTaxIVA"
+              },
+              {
+                "amount": 0.0,
+                "name": "PromocionFueraPrecioBaseTecnologia",
+                "poID": "CT_TecPromocionFueraPrecioBaseOT"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "itemParentId": "2090676919",
+        "poIdMain": "PO_Equ70026279",
+        "items": [
+          {
+            "itemID": "2090676919",
+            "poID": "PO_Equ70026279",
+            "priceDetails": [
+              {
+                "amount": 327520.0,
+                "name": "PrecioBaseTerminales",
+                "poID": "CT_TerPrecioBaseOTC"
+              },
+              {
+                "amount": 327520.0,
+                "name": "Precio Venta Terminales",
+                "poID": "CT_TerPromocionPrecioBaseOTCD"
+              },
+              {
+                "amount": 0.0,
+                "name": "CT_TerTaxIVA",
+                "poID": "CT_TerTaxIVA"
+              },
+              {
+                "amount": 0.0,
+                "name": "PromocionFueraPrecioBaseTerminales",
+                "poID": "CT_TerPromocionFueraPrecioBaseOT"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

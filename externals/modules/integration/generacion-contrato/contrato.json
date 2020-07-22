@@ -1,0 +1,8 @@
+{
+  "headerResponse": {
+    "responseDate": "2020-06-05T05:44:03.077-05:00",
+    "traceabilityId": "cc937c3d-3e28-43b2-8d4a-d0f5ec20aa46"
+  },
+  "isValid": true,
+  "message": "{\"code\":\"SUCCESS\",\"message\":\"Transaccion completada\",\"status\":\"OK\"}"
+}

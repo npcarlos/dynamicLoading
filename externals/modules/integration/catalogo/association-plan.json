@@ -1,0 +1,92 @@
+{
+  "headerResponse": {
+    "endDate": "2020-06-30T13:28:36.169-05:00",
+    "idESBTransaction": "N53e7d5ac.65c4bc9.N6.173067ce871.N8000",
+    "startDate": "2020-06-30T17:52:10.340Z",
+    "idBusinessTransaction": "1234567890"
+  },
+  "getProductOfferingResponse": [
+    {
+      "versions": [
+        {
+          "associations": [
+            {
+              "targetSpecificationType": "ProductSpecification",
+              "associationType": "contains",
+              "targetType": "Product",
+              "href": "/ecm/ecmRT/v2/productSpecification/PS_MovPosOptClaroVideo",
+              "targetSpecificationId": "PS_MovPosOptClaroVideo"
+            }
+          ],
+          "productOfferingPrices": [
+            {
+              "versions": [
+                {
+                  "markup": 0,
+                  "price": {
+                    "amount": 0,
+                    "units": {
+                      "code": "COP",
+                      "name": "COP"
+                    }
+                  },
+                  "percentage": 0,
+                  "id": "Tax_IVA",
+                  "plaId": "CT_MovPosTaxIVA",
+                  "popType": "ImpuestoIVA",
+                  "frequency": "M"
+                }
+              ],
+              "id": "Tax_IVA"
+            },
+            {
+              "versions": [
+                {
+                  "markup": 0,
+                  "price": {
+                    "amount": 0,
+                    "units": {
+                      "code": "COP",
+                      "name": "COP"
+                    }
+                  },
+                  "percentage": 0,
+                  "id": "POP_MovPosBase",
+                  "plaId": "CT_MovPosPrecioBaseREC",
+                  "popType": "PrecioBaseRecurring",
+                  "frequency": "M"
+                }
+              ],
+              "id": "POP_MovPosBase"
+            },
+            {
+              "versions": [
+                {
+                  "markup": 0,
+                  "price": {
+                    "amount": 0,
+                    "units": {
+                      "code": "COP",
+                      "name": "COP"
+                    }
+                  },
+                  "percentage": 0,
+                  "id": "POP_OtrPosClaroVideoREC",
+                  "plaId": "CT_MovPosOtrREC",
+                  "popType": "PrecioVentaRecurring",
+                  "frequency": "M"
+                }
+              ],
+              "id": "POP_OtrPosClaroVideoREC"
+            }
+          ],
+          "name": "Claro Video Móvil",
+          "description": "Claro Video Móvil",
+          "id": "PO_MovPosOptClaroVideo"
+        }
+      ],
+      "id": "PO_MovPosOptClaroVideo",
+      "href": "/ecm/ecmRT/v2/productOffering/PO_MovPosOptClaroVideo"
+    }
+  ]
+}

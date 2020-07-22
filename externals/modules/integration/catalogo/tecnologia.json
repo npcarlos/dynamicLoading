@@ -1,0 +1,795 @@
+{
+  "headerResponse": {
+    "endDate": "2020-06-30T13:35:12.829-05:00",
+    "idESBTransaction": "N53e7d5ac.65c4bc9.4.1730682f526.N8000",
+    "startDate": "2020-06-30T17:52:10.340Z",
+    "idBusinessTransaction": "1234567890"
+  },
+  "getProductOfferingResponse": [
+    {
+      "versions": [
+        {
+          "associations": [
+            {
+              "targetSpecificationType": "ProductOffering",
+              "associationType": "optional",
+              "targetType": "Product",
+              "href": "/ecm/ecmRT/v2/productOffering/PO_MotorAfinidadTecnologia",
+              "targetSpecificationId": "PO_MotorAfinidadTecnologia"
+            },
+            {
+              "targetSpecificationType": "ProductSpecification",
+              "associationType": "contains",
+              "targetType": "Product",
+              "href": "/ecm/ecmRT/v2/productSpecification/PS_TecComputo",
+              "targetSpecificationId": "PS_TecComputo"
+            }
+          ],
+          "characteristics": [
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-04-08T00:00:00.000Z"
+                  },
+                  "valueType": "CodeTable",
+                  "name": "Instance State",
+                  "id": "instance_state",
+                  "type": "lifeCycle",
+                  "characteristicValues": [
+                    {
+                      "displayValue": "TERMINATED",
+                      "isDefault": false,
+                      "validFor": {
+                        "startDateTime": "2020-04-08T00:00:00.000Z"
+                      },
+                      "valueType": "CodeTable",
+                      "value": "TERMINATED"
+                    },
+                    {
+                      "displayValue": "SUSPENDED",
+                      "isDefault": false,
+                      "validFor": {
+                        "startDateTime": "2020-04-08T00:00:00.000Z"
+                      },
+                      "valueType": "CodeTable",
+                      "value": "SUSPENDED"
+                    },
+                    {
+                      "displayValue": "NEW",
+                      "isDefault": false,
+                      "validFor": {
+                        "startDateTime": "2020-04-08T00:00:00.000Z"
+                      },
+                      "valueType": "CodeTable",
+                      "value": "NEW"
+                    },
+                    {
+                      "displayValue": "MIGRATED",
+                      "isDefault": false,
+                      "validFor": {
+                        "startDateTime": "2020-04-08T00:00:00.000Z"
+                      },
+                      "valueType": "CodeTable",
+                      "value": "MIGRATED"
+                    },
+                    {
+                      "displayValue": "ACTIVE",
+                      "isDefault": false,
+                      "validFor": {
+                        "startDateTime": "2020-04-08T00:00:00.000Z"
+                      },
+                      "valueType": "CodeTable",
+                      "value": "ACTIVE"
+                    }
+                  ],
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "CONF"
+                    }
+                  ]
+                }
+              ],
+              "id": "instance_state"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "Coreâ„¢ i3",
+                  "validFor": {
+                    "startDateTime": "2020-04-08T00:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "Procesador",
+                  "id": "Procesador",
+                  "type": "pscmUserAttribute",
+                  "value": "Coreâ„¢ i3",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "Procesador"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-04-08T00:00:00.000Z"
+                  },
+                  "valueType": "CodeTable",
+                  "name": "PosibilidadFinanciamiento",
+                  "id": "PlazoMeses",
+                  "type": "pscmUserAttribute",
+                  "characteristicValues": [
+                    {
+                      "displayValue": "6 Meses",
+                      "isDefault": false,
+                      "validFor": {
+                        "startDateTime": "2020-04-08T00:00:00.000Z"
+                      },
+                      "valueType": "CodeTable",
+                      "value": "6"
+                    },
+                    {
+                      "displayValue": "36 Meses",
+                      "isDefault": false,
+                      "validFor": {
+                        "startDateTime": "2020-04-08T00:00:00.000Z"
+                      },
+                      "valueType": "CodeTable",
+                      "value": "36"
+                    },
+                    {
+                      "displayValue": "24 Meses",
+                      "isDefault": false,
+                      "validFor": {
+                        "startDateTime": "2020-04-08T00:00:00.000Z"
+                      },
+                      "valueType": "CodeTable",
+                      "value": "24"
+                    },
+                    {
+                      "displayValue": "18 Meses",
+                      "isDefault": false,
+                      "validFor": {
+                        "startDateTime": "2020-04-08T00:00:00.000Z"
+                      },
+                      "valueType": "CodeTable",
+                      "value": "18"
+                    },
+                    {
+                      "displayValue": "12 Meses",
+                      "isDefault": false,
+                      "validFor": {
+                        "startDateTime": "2020-04-08T00:00:00.000Z"
+                      },
+                      "valueType": "CodeTable",
+                      "value": "12"
+                    },
+                    {
+                      "displayValue": "0 Meses",
+                      "isDefault": false,
+                      "validFor": {
+                        "startDateTime": "2020-04-08T00:00:00.000Z"
+                      },
+                      "valueType": "CodeTable",
+                      "value": "0"
+                    }
+                  ],
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "CONF"
+                    },
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "PlazoMeses"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "365",
+                  "validFor": {
+                    "startDateTime": "2020-04-08T00:00:00.000Z"
+                  },
+                  "valueType": "Number",
+                  "name": "GarantiaDiasFabricante",
+                  "id": "GarantiaDiasFabricante",
+                  "type": "pscmUserAttribute",
+                  "value": "365",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "READONLY"
+                    },
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "GarantiaDiasFabricante"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-04-08T00:00:00.000Z"
+                  },
+                  "valueType": "Number",
+                  "name": "GarantiaDiasClaro",
+                  "id": "GarantiaDiasClaro",
+                  "type": "pscmUserAttribute",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "READONLY"
+                    },
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "GarantiaDiasClaro"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "14,0\"",
+                  "validFor": {
+                    "startDateTime": "2020-04-08T00:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "Pantalla",
+                  "id": "Pantalla",
+                  "type": "pscmUserAttribute",
+                  "value": "14,0\"",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "Pantalla"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "WINDOWS PC",
+                  "validFor": {
+                    "startDateTime": "2020-04-08T00:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "SistemaOperativo",
+                  "id": "SistemaOperativo",
+                  "type": "pscmUserAttribute",
+                  "value": "WINDOWS PC",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "SistemaOperativo"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "7011226",
+                  "validFor": {
+                    "startDateTime": "2020-04-08T00:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "CodigoMaterial",
+                  "id": "CodigoMaterial",
+                  "type": "pscmUserAttribute",
+                  "value": "7011226",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "CodigoMaterial"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "Hewlet Packard",
+                  "validFor": {
+                    "startDateTime": "2020-04-08T00:00:00.000Z"
+                  },
+                  "valueType": "CodeTable",
+                  "name": "FabricanteTecnologia",
+                  "id": "FabricanteTecnologia",
+                  "type": "pscmUserAttribute",
+                  "value": "HewletPackard",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "FabricanteTecnologia"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "Intel HD",
+                  "validFor": {
+                    "startDateTime": "2020-04-08T00:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "Graficas",
+                  "id": "Graficas",
+                  "type": "pscmUserAttribute",
+                  "value": "Intel HD",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "Graficas"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "4GB",
+                  "validFor": {
+                    "startDateTime": "2020-04-08T00:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "Memoria",
+                  "id": "Memoria",
+                  "type": "pscmUserAttribute",
+                  "value": "4GB",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "Memoria"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "HP Laptop 14-bs012la",
+                  "validFor": {
+                    "startDateTime": "2020-04-08T00:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "ModeloTecnologia",
+                  "id": "ModeloTecnologia",
+                  "type": "pscmUserAttribute",
+                  "value": "HP Laptop 14-bs012la",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "ModeloTecnologia"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "USB, USB 2.0, HDMI, VGA. Salida audio y microfono",
+                  "validFor": {
+                    "startDateTime": "2020-04-08T00:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "Conectividad",
+                  "id": "Conectividad",
+                  "type": "pscmUserAttribute",
+                  "value": "USB, USB 2.0, HDMI, VGA. Salida audio y microfono",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "Conectividad"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "Â 1TB",
+                  "validFor": {
+                    "startDateTime": "2020-04-08T00:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "Almacenamiento",
+                  "id": "Almacenamiento",
+                  "type": "pscmUserAttribute",
+                  "value": "Â 1TB",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "Almacenamiento"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "false",
+                  "validFor": {
+                    "startDateTime": "2020-04-08T00:00:00.000Z"
+                  },
+                  "valueType": "Boolean",
+                  "name": "Is Composite ",
+                  "id": "isComposite",
+                  "type": "pscmUserAttribute",
+                  "value": "0"
+                }
+              ],
+              "id": "isComposite"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "OPTIONAL",
+                  "validFor": {
+                    "startDateTime": "2020-04-08T00:00:00.000Z"
+                  },
+                  "valueType": "CodeTable",
+                  "name": "Product Technical Type",
+                  "id": "productTechnicalType",
+                  "type": "pscmSystemAttribute",
+                  "value": "OPTIONAL",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "productTechnicalType"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "Computo",
+                  "validFor": {
+                    "startDateTime": "2020-04-08T00:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "Offer Type",
+                  "id": "specificationSubtype",
+                  "type": "pscmSystemAttribute",
+                  "value": "Computo",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    },
+                    {
+                      "isSelected": true,
+                      "value": "SaveToSR"
+                    }
+                  ]
+                }
+              ],
+              "id": "specificationSubtype"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "Portatil",
+                  "validFor": {
+                    "startDateTime": "2020-04-08T00:00:00.000Z"
+                  },
+                  "valueType": "String",
+                  "name": "Offer SubType",
+                  "id": "specificationSubSubtype",
+                  "type": "pscmSystemAttribute",
+                  "value": "Portatil",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    },
+                    {
+                      "isSelected": true,
+                      "value": "SaveToSR"
+                    }
+                  ]
+                }
+              ],
+              "id": "specificationSubSubtype"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "Tecnologia",
+                  "validFor": {
+                    "startDateTime": "2020-04-08T00:00:00.000Z"
+                  },
+                  "valueType": "CodeTable",
+                  "name": "Family",
+                  "id": "family",
+                  "type": "pscmSystemAttribute",
+                  "value": "Tecnologia",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    },
+                    {
+                      "isSelected": true,
+                      "value": "SaveToSR"
+                    }
+                  ]
+                }
+              ],
+              "id": "family"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "Sale",
+                  "validFor": {
+                    "startDateTime": "2020-04-08T00:00:00.000Z"
+                  },
+                  "valueType": "CodeTable",
+                  "name": "Category",
+                  "id": "category",
+                  "type": "pscmSystemAttribute",
+                  "value": "Sale",
+                  "properties": [
+                    {
+                      "isSelected": true,
+                      "value": "TCRMFlag"
+                    }
+                  ]
+                }
+              ],
+              "id": "category"
+            },
+            {
+              "versions": [
+                {
+                  "displayValue": "false",
+                  "validFor": {
+                    "startDateTime": "2020-04-08T00:00:00.000Z"
+                  },
+                  "valueType": "Boolean",
+                  "name": "Shared",
+                  "id": "shared",
+                  "type": "pscmSystemAttribute",
+                  "value": "0"
+                }
+              ],
+              "id": "shared"
+            },
+            {
+              "versions": [
+                {
+                  "validFor": {
+                    "startDateTime": "2020-04-08T00:00:00.000Z"
+                  },
+                  "valueType": "CodeTable",
+                  "name": "TimeZone Type",
+                  "id": "tariffTimeTimeZoneType",
+                  "type": "pscmSystemAttribute"
+                }
+              ],
+              "id": "tariffTimeTimeZoneType"
+            }
+          ],
+          "productOfferingPrices": [
+            {
+              "versions": [
+                {
+                  "characteristics": [
+                    {
+                      "versions": [
+                        {
+                          "displayValue": "PrecioBase",
+                          "validFor": {
+                            "startDateTime": "2020-04-08T00:00:00.000Z"
+                          },
+                          "valueType": "CodeTable",
+                          "name": "TipoPrecio",
+                          "id": "TipoPrecio",
+                          "valueTypeSpecification": {
+                            "id": "TipoPrecio"
+                          },
+                          "type": "infoModelSystemAttribute",
+                          "value": "PB",
+                          "properties": [
+                            {
+                              "isSelected": true,
+                              "value": "READONLY"
+                            }
+                          ]
+                        }
+                      ],
+                      "id": "TipoPrecio"
+                    }
+                  ],
+                  "markup": 0,
+                  "price": {
+                    "amount": 1674000,
+                    "units": {
+                      "code": "COP",
+                      "name": "COP"
+                    }
+                  },
+                  "percentage": 0,
+                  "name": "PrecioBaseTecnologia",
+                  "id": "CT_TecPrecioBaseOTC",
+                  "plaId": "CT_TecPrecioBaseOTC",
+                  "popType": "PrecioBaseOne-Time",
+                  "frequency": "O"
+                }
+              ],
+              "id": "CT_TecPrecioBaseOTC"
+            },
+            {
+              "versions": [
+                {
+                  "characteristics": [
+                    {
+                      "versions": [
+                        {
+                          "displayValue": "PrecioVenta",
+                          "validFor": {
+                            "startDateTime": "2020-04-08T00:00:00.000Z"
+                          },
+                          "valueType": "CodeTable",
+                          "name": "TipoPrecio",
+                          "id": "TipoPrecio",
+                          "valueTypeSpecification": {
+                            "id": "TipoPrecio"
+                          },
+                          "type": "infoModelSystemAttribute",
+                          "value": "PV",
+                          "properties": [
+                            {
+                              "isSelected": true,
+                              "value": "READONLY"
+                            }
+                          ]
+                        }
+                      ],
+                      "id": "TipoPrecio"
+                    }
+                  ],
+                  "markup": 0,
+                  "price": {
+                    "amount": 1674000,
+                    "units": {
+                      "code": "COP",
+                      "name": "COP"
+                    }
+                  },
+                  "percentage": 0,
+                  "name": "PromocionPrecioBaseTecnologia",
+                  "id": "CT_TecPromocionPrecioBaseOTCD",
+                  "plaId": "CT_TecPromocionPrecioBaseOTCD",
+                  "popType": "PrecioVentaOne-Time",
+                  "frequency": "O"
+                }
+              ],
+              "id": "CT_TecPromocionPrecioBaseOTCD"
+            },
+            {
+              "versions": [
+                {
+                  "characteristics": [
+                    {
+                      "versions": [
+                        {
+                          "displayValue": "Excluido",
+                          "validFor": {
+                            "startDateTime": "2020-04-08T00:00:00.000Z"
+                          },
+                          "valueType": "CodeTable",
+                          "name": "ClaseImpuesto",
+                          "id": "ClaseImpuesto",
+                          "valueTypeSpecification": {
+                            "id": "ClaseImpuesto"
+                          },
+                          "type": "infoModelUserAttribute",
+                          "value": "Excluido",
+                          "properties": [
+                            {
+                              "isSelected": true,
+                              "value": "READONLY"
+                            },
+                            {
+                              "isSelected": true,
+                              "value": "SaveToSR"
+                            }
+                          ]
+                        }
+                      ],
+                      "id": "ClaseImpuesto"
+                    }
+                  ],
+                  "markup": 0,
+                  "price": {
+                    "amount": 0,
+                    "units": {
+                      "code": "COP",
+                      "name": "COP"
+                    }
+                  },
+                  "percentage": 0,
+                  "name": "IVA Tecnologia",
+                  "id": "CT_TecTaxIVA",
+                  "plaId": "CT_TecTaxIVA",
+                  "popType": "ImpuestoIVA",
+                  "frequency": "O"
+                }
+              ],
+              "id": "CT_TecTaxIVA"
+            },
+            {
+              "versions": [
+                {
+                  "markup": 0,
+                  "price": {
+                    "amount": 0,
+                    "units": {
+                      "code": "COP",
+                      "name": "COP"
+                    }
+                  },
+                  "percentage": 0,
+                  "name": "DescuentofueroPrecioBaseTecnologia",
+                  "id": "CT_TecPromocionFueraPrecioBaseOT",
+                  "plaId": "CT_TecPromocionFueraPrecioBaseOT",
+                  "popType": "Discount",
+                  "frequency": "O"
+                }
+              ],
+              "id": "CT_TecPromocionFueraPrecioBaseOT"
+            }
+          ],
+          "name": "LAPTOP 1GR66LA#ABM HP 14-BS012LA HEWP",
+          "description": "Oferta base para Tecnologia",
+          "id": "PO_Tec7011226"
+        }
+      ],
+      "id": "PO_Tec7011226",
+      "href": "/ecm/ecmRT/v2/productOffering/PO_Tec7011226"
+    }
+  ]
+}

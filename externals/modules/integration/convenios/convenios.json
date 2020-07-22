@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "convenioCodigo": "MINTIC",
+    "convenioDescripcion": "MinTIC",
+    "estado": 1,
+    "usuarioCreacion": "SYSTEM",
+    "fechaCreacion": "17/02/20 06:28:34,738107000 PM",
+    "usuarioActualizacion": "SYSTEM",
+    "fechaActualizacion": "17/02/20 06:28:34,738107000 PM"
+  },
+  {
+    "id": "3",
+    "convenioCodigo": "INHOUSE",
+    "convenioDescripcion": "In House",
+    "estado": 1,
+    "usuarioCreacion": "SYSTEM",
+    "fechaCreacion": "17/02/20 06:28:34,767991000 PM",
+    "usuarioActualizacion": "SYSTEM",
+    "fechaActualizacion": "17/02/20 06:28:34,767991000 PM"
+  },
+  {
+    "id": "4",
+    "convenioCodigo": "FUERZASMILITARES",
+    "convenioDescripcion": "Fuerzas Militares",
+    "estado": 1,
+    "usuarioCreacion": "SYSTEM",
+    "fechaCreacion": "17/02/20 06:28:34,785273000 PM",
+    "usuarioActualizacion": "SYSTEM",
+    "fechaActualizacion": "17/02/20 06:28:34,785273000 PM"
+  },
+  {
+    "id": "5",
+    "convenioCodigo": "EDUCLIC",
+    "convenioDescripcion": "EduClic",
+    "estado": 1,
+    "usuarioCreacion": "SYSTEM",
+    "fechaCreacion": "17/02/20 06:28:34,800075000 PM",
+    "usuarioActualizacion": "SYSTEM",
+    "fechaActualizacion": "17/02/20 06:28:34,800075000 PM"
+  }
+]

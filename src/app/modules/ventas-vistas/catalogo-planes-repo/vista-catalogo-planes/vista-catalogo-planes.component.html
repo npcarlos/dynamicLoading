@@ -1,0 +1,14 @@
+<app-info-productos-cliente [matrizRiesgoHc]="matrizRiesgoHc"></app-info-productos-cliente>
+<app-grilla-catalogo
+  [itemsCatalogo]="planes"
+  [opcionItem]="'plan'"
+  (onMostrar)="mostrarPlan($event)"
+  (onAgregar)="agregarPlan($event)"
+></app-grilla-catalogo>
+
+<app-navigation-buttons
+  [previousButton]="getPreviousButton()"
+  [nextButton]="getNextButton()"
+  (onPreviousButtonClicked)="previousButtonClicked()"
+  (onNextButtonClicked)="nextButtonClicked()"
+></app-navigation-buttons>
