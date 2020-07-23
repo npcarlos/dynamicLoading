@@ -1,7 +1,7 @@
 import { Component, Input, OnInit, ViewChild, ComponentFactoryResolver, OnDestroy } from '@angular/core';
 
 import { CatalogoDirective } from '../../../catalogo.directive';
-import { CatalogoItem }      from '../../../catalogo-item';
+import { TipoCatalogoItem }      from '../../../catalogo-item';
 import { CatalogoTemplate } from '../../../catalogo.component';
 
 @Component({
@@ -9,9 +9,11 @@ import { CatalogoTemplate } from '../../../catalogo.component';
   templateUrl: './vista-catalogos-banner.component.html',
 })
 export class VistaCatalogosBannerComponent implements OnInit {
-  @Input() catalogos: CatalogoItem[];
-  @Input() indexCatalogoActual: number;
-  currentCatalogoIndex = -1;
+  // @Input() catalogos: TipoCatalogoItem[];
+  // @Input() indexCatalogoActual: number;
+
+  @Input() catalogoSeleccionado: TipoCatalogoItem
+
   @ViewChild(CatalogoDirective, {static: true}) catalogoHost: CatalogoDirective;
   interval: any;
 
@@ -22,22 +24,25 @@ export class VistaCatalogosBannerComponent implements OnInit {
   }
 
   ngOnChanges(changes) {
-    if (changes.indexCatalogoActual) {
-      this.loadComponent();
-    }
+    // if (changes.indexCatalogoActual) {
+    //   this.loadComponent();
+    // }
+    // TODO ¿Sería bueno cargarlo como un observable o sólo con onChange?
+    this.loadComponent();
   }
 
   loadComponent() {
-    this.currentCatalogoIndex = this.indexCatalogoActual;
-    const catalogoItem = this.catalogos[this.currentCatalogoIndex];
 
-    const componentFactory = this.componentFactoryResolver.resolveComponentFactory(catalogoItem.component);
+    const parametrosCatalogo = this.catalogoSeleccionado.parametrosCatalogo;
+
+    const componentFactory = this.componentFactoryResolver.resolveComponentFactory(parametrosCatalogo.visualCatalogComponent);
 
     const viewContainerRef = this.catalogoHost.viewContainerRef;
     viewContainerRef.clear();
 
     const componentRef = viewContainerRef.createComponent(componentFactory);
-    (<CatalogoTemplate>componentRef.instance).data = catalogoItem.data;
+    
+    (<CatalogoTemplate>componentRef.instance).parametrosCatalogo = parametrosCatalogo;
   }
 
 }

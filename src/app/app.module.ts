@@ -9,14 +9,13 @@ import { CatalogoDirective }          from './catalogo.directive';
 import { GrillaComponent } from './modules/visual-components/grilla/grilla.component';
 import { ItemEquipoComponent } from './modules/visual-components/item-equipo/item-equipo.component';
 import { ItemPlanComponent } from './modules/visual-components/item-plan/item-plan.component';
-import { ItemService } from './modules/visual-components/item.service';
 import { ItemDirective } from './modules/visual-components/item.directive';
 import { CatalogoService }            from '../../externals/modules/business/dummy/catalogo.service';
 import { CatalogoPlanesRepoModule } from './modules/ventas-vistas/catalogo-planes-repo/catalogo-planes.module';
 
 @NgModule({
   imports: [ BrowserModule, FormsModule ],
-  providers: [CatalogoService, ItemService],
+  providers: [CatalogoService],
   declarations: [ AppComponent,
                   VistaCatalogosBannerComponent,
                   VistaCatalogoPlanesComponent,

@@ -1,3 +1,3 @@
 export interface CatalogoTemplate {
-  data: any;
+  parametrosCatalogo: any;
 }

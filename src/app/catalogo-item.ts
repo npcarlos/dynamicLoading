@@ -1,5 +1,7 @@
 import { Type } from '@angular/core';
 
-export class CatalogoItem {
-  constructor(public component: Type<any>, public data: any) {}
+export class TipoCatalogoItem {
+  // TODO Ítems a mostrar, Características generales, Caraterísticas específicas, función para traer datos actualizados
+  // Filtros.
+  constructor(public parametrosCatalogo: any) {}
 }

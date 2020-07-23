@@ -3,9 +3,11 @@ import { Injectable } from '@angular/core';
 
 import { VistaCatalogoPlanesComponent } from '../../../../src/app/modules/ventas-vistas/catalogo-planes/vista-catalogo-planes/vista-catalogo-planes.component';
 import { EquiposComponent } from '../../../../src/app/modules/ventas-vistas/catalogo-equipos/vista-catalogo-equipos/equipos.component';
-import { CatalogoItem } from '../../../../src/app/catalogo-item';
+import { TipoCatalogoItem  } from '../../../../src/app/catalogo-item';
 
 import { TipoCatalogoModel, PlanModel, PlanTemplate } from '../../../libraries/domain/fullstack/catalogo'
+import { ItemPlanComponent } from 'src/app/modules/visual-components/item-plan/item-plan.component';
+import { ItemEquipoComponent } from 'src/app/modules/visual-components/item-equipo/item-equipo.component';
 
 @Injectable()
 export class CatalogoService {
@@ -58,10 +60,31 @@ export class CatalogoService {
   ]
 
 
-  getAds() {
+  getTiposCatalogo() {
+    const parametrosPlanes = {
+      name: 'Planes',
+      listaItems: this.planesDummy,
+      visualCatalogComponent: VistaCatalogoPlanesComponent,
+      visualItemComponent: ItemPlanComponent,
+      filtros: [],
+      informacionOpcional:{}
+    }
+
+    
+    const parametrosEquipos = {
+      name: 'Equipos',
+      listaItems: this.equiposDummy,
+      visualCatalogComponent: EquiposComponent,
+      visualItemComponent: ItemEquipoComponent,
+      filtros: [],
+      informacionOpcional:{}
+    }
     return [
-      new CatalogoItem(VistaCatalogoPlanesComponent,   new TipoCatalogoModel('Planes', this.planesDummy)),
-      new CatalogoItem(EquiposComponent, new TipoCatalogoModel('Equipos', this.equiposDummy)),
+      // TODO En vez de enviar planesDummy enviar las funciones que piden los datos actualizados.
+      // TODO Revisar el nombre TipoCatalogoItem
+      
+      new TipoCatalogoItem(parametrosPlanes),
+      new TipoCatalogoItem(parametrosEquipos),
     ];
   }
 

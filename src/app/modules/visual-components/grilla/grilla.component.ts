@@ -2,7 +2,6 @@ import { Component, OnInit, Input, Output, EventEmitter, ViewChild, ComponentFac
 import { ItemComponent } from '../item';
 import { ItemTemplate } from '../item.interface';
 import { ItemDirective } from '../item.directive';
-import { ItemService } from '../item.service';
 import { TipoCatalogoModel } from '~libraries/domain/fullstack/catalogo';
 
 
@@ -15,9 +14,11 @@ export class GrillaComponent implements OnInit {
 
   @Output() onMostrar = new EventEmitter<any>();
   @Output() onAgregar = new EventEmitter<any>();
-  @Input() itemsCatalogo: TipoCatalogoModel;
-  @Input() itemsCatalogoInitial: any[];
+  //@Input() itemsCatalogo: TipoCatalogoModel;
+  //@Input() itemsCatalogoInitial: any[];
   @Input() opcionItem: string;
+
+  @Input() parametrosCatalogo: any;
 
   public showFilters = false;
   searchText = '';
@@ -32,25 +33,23 @@ export class GrillaComponent implements OnInit {
   interval: any;
 
   constructor( 
-    private itemService: ItemService,
     private componentFactoryResolver: ComponentFactoryResolver 
   ) {}
 
   ngOnInit(): void {
-    
     this.loadComponent();
   }
 
   loadComponent() {
-    for (const item of this.itemsCatalogo.itemsCatalogo) {
-      const catalogoItem = this.itemService.getItems(this.itemCatalogoIndex, item)
+    const { listaItems, visualItemComponent } = this.parametrosCatalogo
+    for (const item of listaItems) {
   
-      const componentFactory = this.componentFactoryResolver.resolveComponentFactory(catalogoItem.component);
+      const componentFactory = this.componentFactoryResolver.resolveComponentFactory(visualItemComponent);
 
       const viewContainerRef = this.grillaHost.viewContainerRef;
 
       const componentRef = viewContainerRef.createComponent(componentFactory);
-      (<ItemTemplate>componentRef.instance).data = catalogoItem.data;
+      (<ItemTemplate>componentRef.instance).data = item;
     }
     
   }
