@@ -18,56 +18,6 @@ import { Store } from '@ngrx/store';
 @Injectable()
 export class CatalogoService {
   
-  getTiposCatalogo() {
-    const parametrosPlanes = {
-      name: 'Planes',
-      visualCatalogComponent: CatalogoPlanesComponent,
-      visualItemComponent: ItemPlanComponent,
-      filtros: [],
-      informacionOpcional:{}
-    }
-
-    
-    const parametrosEquipos = {
-      name: 'Equipos',
-      visualCatalogComponent: CatalogoEquiposComponent,
-      visualItemComponent: ItemEquipoComponent,
-      filtros: [],
-      informacionOpcional:{}
-    }
-
-    
-    const parametrosTecnologia = {
-      name: 'Tecnologías',
-      visualCatalogComponent: CatalogoTecnologiasComponent,
-      visualItemComponent: ItemTecnologiaComponent,
-      filtros: [],
-      informacionOpcional:{}
-    }
-
-    
-    const parametrosAudio = {
-      name: 'Audio',
-      visualCatalogComponent: CatalogoAudioComponent,
-      visualItemComponent: ItemAudioComponent,
-      filtros: [],
-      informacionOpcional:{
-        promocionesIVA: {
-          texto:"19% OFF",
-          banner: "iva.png"
-        }
-      }
-    }
-    return [
-      // TODO En vez de enviar planesDummy enviar las funciones que piden los datos actualizados.
-      // TODO Revisar el nombre TipoCatalogoItem
-      
-      new TipoCatalogoItem(parametrosPlanes),
-      new TipoCatalogoItem(parametrosEquipos),
-      new TipoCatalogoItem(parametrosTecnologia),
-      new TipoCatalogoItem(parametrosAudio),
-    ];
-  }
 
   // getTipoCatalogos()
   // {
