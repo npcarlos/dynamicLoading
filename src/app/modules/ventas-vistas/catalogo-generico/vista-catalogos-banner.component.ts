@@ -3,34 +3,32 @@ import { Component, Input, OnInit, ViewChild, ComponentFactoryResolver, OnDestro
 import { CatalogoDirective } from '../../../catalogo.directive';
 import { CatalogoItem }      from '../../../catalogo-item';
 import { CatalogoTemplate } from '../../../catalogo.component';
-import { TipoCatalogoModel } from 'externals/libraries/domain/fullstack/catalogo';
 
 @Component({
   selector: 'app-catalogo-banner',
   templateUrl: './vista-catalogos-banner.component.html',
 })
-export class VistaCatalogosBannerComponent implements OnInit, OnDestroy {
+export class VistaCatalogosBannerComponent implements OnInit {
   @Input() catalogos: CatalogoItem[];
-  //@Input() tiposCatalogos: TipoCatalogoModel[];
-  @Input() catalogoActual: TipoCatalogoModel;
+  @Input() indexCatalogoActual: number;
   currentCatalogoIndex = -1;
   @ViewChild(CatalogoDirective, {static: true}) catalogoHost: CatalogoDirective;
-  // interval: any;
+  interval: any;
 
   constructor(private componentFactoryResolver: ComponentFactoryResolver) { }
 
   ngOnInit() {
-    //this.loadComponent();
-    // this.getCatalogos();
-    this.darTiposCatalogos();
+    this.loadComponent();
   }
 
-  ngOnDestroy() {
-    // clearInterval(this.interval);
+  ngOnChanges(changes) {
+    if (changes.indexCatalogoActual) {
+      this.loadComponent();
+    }
   }
 
   loadComponent() {
-    this.currentCatalogoIndex = (this.currentCatalogoIndex + 1) % this.catalogos.length;
+    this.currentCatalogoIndex = this.indexCatalogoActual;
     const catalogoItem = this.catalogos[this.currentCatalogoIndex];
 
     const componentFactory = this.componentFactoryResolver.resolveComponentFactory(catalogoItem.component);
@@ -42,14 +40,4 @@ export class VistaCatalogosBannerComponent implements OnInit, OnDestroy {
     (<CatalogoTemplate>componentRef.instance).data = catalogoItem.data;
   }
 
-  // getCatalogos() {
-  //   this.interval = setInterval(() => {
-  //     this.loadComponent();
-  //   }, 3000);
-  // }
-
-  darTiposCatalogos()
-  {
-    //console.log(this.tiposCatalogos)
-  }
 }

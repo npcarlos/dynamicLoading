@@ -3,14 +3,14 @@ import { Injectable } from '@angular/core';
 import { ItemPlanComponent } from './item-plan/item-plan.component';
 import { ItemEquipoComponent } from './item-equipo/item-equipo.component';
 import { ItemComponent } from './item';
+import { CatalogoModel } from '~libraries/domain/fullstack/catalogo';
 
 @Injectable()
 export class ItemService {
-  getItems() {
-    return [
-      new ItemComponent(ItemPlanComponent, {nombrePlan: 'plan 1', datosMoviles: '500gb' }),
+  public ListaItemsComponent = [ ItemPlanComponent, ItemEquipoComponent]
 
-      new ItemComponent(ItemEquipoComponent, {name: 'Samsung'}),
-    ];
+  getItems(indexItemComponent: number, data: any[]) {
+    const component = this.ListaItemsComponent[indexItemComponent];
+    return new ItemComponent(component, data);
   }
 }

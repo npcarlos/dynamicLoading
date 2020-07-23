@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
 
 import { CatalogoTemplate }      from '../../../../catalogo.component';
-import { PlanModel } from 'externals/libraries/domain/fullstack/catalogo';
+import { PlanModel, TipoCatalogoModel } from 'externals/libraries/domain/fullstack/catalogo';
 
 @Component({
   templateUrl: './vista-catalogo-planes.component.html',
@@ -9,8 +9,6 @@ import { PlanModel } from 'externals/libraries/domain/fullstack/catalogo';
 export class VistaCatalogoPlanesComponent implements CatalogoTemplate {
   @Input() data: any;
   @Input() planes: PlanModel[] = [];
-
-  
 
 }
 

@@ -1,14 +1,3 @@
 <div class="ad-banner-example">
-    <h3>Advertisements</h3>
-    <h1>Sección actual: {{catalogoActual.nombreTipoCatalogo}} </h1>
-    <p><b>DATOS:</b></p>
-    <ul>
-      <li *ngFor="let itemEnCatalogo of  catalogoActual.itemsCatalogo">
-          Nombre: {{itemEnCatalogo.name}}
-          Descripción: {{itemEnCatalogo.description}}
-          Costo: ${{itemEnCatalogo.amount}}
-          Taxes: {{itemEnCatalogo.taxes * 100}}%
-      </li>
-    </ul>
     <ng-template catalogo-host></ng-template>
   </div>

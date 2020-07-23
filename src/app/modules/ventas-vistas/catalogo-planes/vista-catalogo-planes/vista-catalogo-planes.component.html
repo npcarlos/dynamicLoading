@@ -1,19 +1,4 @@
 <div class="job-ad">
   <h1>Planes</h1>
-
-    <h3>La grilla debería mostrar los planes</h3>
-    
-    <app-grilla [itemIndex]="0"></app-grilla>
-    <p>Acá se muestran los items que traen los planes del external</p>
-    <ul>
-      <li></li>
-    </ul>
-    <h4>{{data.headline}}</h4>
-
-    {{data.body}}
-  </div>
-
-  <div>
-    <h1>Trayendo cosas del catálogo real</h1>
-    {{planes}}
-  </div>
+  <app-grilla [itemCatalogoIndex]="0" [itemsCatalogo]="data"></app-grilla>
+</div>

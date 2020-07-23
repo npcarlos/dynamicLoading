@@ -1,3 +1,10 @@
 <div>
-    <app-catalogo-banner [catalogos]="catalogos" [tiposCatalogos]="tiposCatalogos" [catalogoActual]="tiposCatalogos[catalogoActual]"></app-catalogo-banner>
+
+  <button class="btn m-2" (click)="actualizarCatalogo(0)">
+    Planes
+  </button>
+  <button class="btn m-2" (click)="actualizarCatalogo(1)">
+    Equipos
+  </button>
+    <app-catalogo-banner [catalogos]="catalogos" [indexCatalogoActual]="catalogoActual"></app-catalogo-banner>
   </div>    

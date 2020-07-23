@@ -3,6 +3,7 @@ import { ItemComponent } from '../item';
 import { ItemTemplate } from '../item.interface';
 import { ItemDirective } from '../item.directive';
 import { ItemService } from '../item.service';
+import { TipoCatalogoModel } from '~libraries/domain/fullstack/catalogo';
 
 
 @Component({
@@ -14,7 +15,7 @@ export class GrillaComponent implements OnInit {
 
   @Output() onMostrar = new EventEmitter<any>();
   @Output() onAgregar = new EventEmitter<any>();
-  @Input() itemsCatalogo: any[];
+  @Input() itemsCatalogo: TipoCatalogoModel;
   @Input() itemsCatalogoInitial: any[];
   @Input() opcionItem: string;
 
@@ -24,8 +25,8 @@ export class GrillaComponent implements OnInit {
   tipoPlan = 'Voz y Datos';
   paginaActual: number = 1;
 
-  @Input() itemIndex: number;
-  public items: ItemComponent[]
+  @Input() itemCatalogoIndex: number;
+  // public items: ItemComponent[]
   currentCatalogoIndex = 0;
   @ViewChild(ItemDirective, {static: true}) grillaHost: ItemDirective;
   interval: any;
@@ -36,20 +37,22 @@ export class GrillaComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    this.items = this.itemService.getItems()
+    
     this.loadComponent();
   }
 
   loadComponent() {
-    const catalogoItem = this.items[this.itemIndex];
+    for (const item of this.itemsCatalogo.itemsCatalogo) {
+      const catalogoItem = this.itemService.getItems(this.itemCatalogoIndex, item)
+  
+      const componentFactory = this.componentFactoryResolver.resolveComponentFactory(catalogoItem.component);
 
-    const componentFactory = this.componentFactoryResolver.resolveComponentFactory(catalogoItem.component);
+      const viewContainerRef = this.grillaHost.viewContainerRef;
 
-    const viewContainerRef = this.grillaHost.viewContainerRef;
-    viewContainerRef.clear();
-
-    const componentRef = viewContainerRef.createComponent(componentFactory);
-    (<ItemTemplate>componentRef.instance).data = catalogoItem.data;
+      const componentRef = viewContainerRef.createComponent(componentFactory);
+      (<ItemTemplate>componentRef.instance).data = catalogoItem.data;
+    }
+    
   }
   // }
 

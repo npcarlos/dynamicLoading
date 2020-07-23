@@ -12,7 +12,7 @@ export class ItemEquipoComponent implements ItemTemplate {
   // @Input() valor: string;
   // @Input() name: string;
   // @Input() image: string;
-  public data: any;
+  @Input() data: any;
   // searchText = '';
   // orderByItems = '';
   // paginaActual: number = 1;

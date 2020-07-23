@@ -7,7 +7,7 @@ import { ItemTemplate } from '../item.interface';
   styleUrls: ['./item-plan.component.scss'],
 })
 export class ItemPlanComponent implements ItemTemplate {
-  public data: any;
+  @Input() data: any;
   @Output() onMostrar = new EventEmitter<null>();
   @Output() onAgregar = new EventEmitter<null>();
   @Input() datosMoviles: string;
@@ -21,7 +21,9 @@ export class ItemPlanComponent implements ItemTemplate {
   orderByItems = '';
   paginaActual: number = 1;
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    console.log(this.data)
+  }
   mostrar() {
     this.onMostrar.emit();
   }

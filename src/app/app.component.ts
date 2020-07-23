@@ -18,22 +18,12 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     this.catalogos = this.catalogoService.getAds();
-    this.tiposCatalogos = this.catalogoService.getTipoCatalogos();
     this.catalogoActual = 0;
-
-    this.interval = setInterval(() => {
-      this.cargarCatalogoActual();
-    }, 3000);
   }
 
-
-  
-  cargarCatalogoActual() {
-    this.catalogoActual = (this.catalogoActual + 1) % this.tiposCatalogos.length;
-    
-
+  public actualizarCatalogo(indiceCatalogoNuevo: number) {
+    this.catalogoActual = indiceCatalogoNuevo;
   }
-
 
 }
 
