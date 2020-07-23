@@ -10,20 +10,20 @@ export class CatalogoAudioComponent implements VisualCatalogoTemplate, OnInit {
   @Input() parametrosCatalogo: any;
   @Input() promocionesIVA: any;
   listaItems: any[];
-  visualItemRender: any;
+  visualItemRenderTemplate: any;  
   constructor(public dummyService:CatalogoService ){
   }
   ngOnInit()
   {
-    this.listaItems = this.dummyService.getAudio();
-    this.visualItemRender = this.parametrosCatalogo.visualItemComponent 
-
-  //   name: 'Tecnologías',
-  //     visualCatalogComponent: CatalogoTecnologiasComponent,
-  //     visualItemComponent: ItemTecnologiaComponent,
-  //     filtros: [],
-  //     informacionOpcional
+    this.inicializarFuentesDeDatos();
+    this.visualItemRenderTemplate = this.parametrosCatalogo.visualItemComponent 
   }
+
+  inicializarFuentesDeDatos(){
+    this.listaItems = this.dummyService.getAudio();
+  }
+
+
   
 }
 

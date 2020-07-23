@@ -151,6 +151,30 @@ export class CatalogoService {
         tipoPlan: 'Voz',
         taxes: 0.19,
         image: "/public/images/plan3.png"
+      },
+      {
+        name: "Plan 5GB - Solo voz",
+        description: "descripción del plan de 5GB",
+        tipoPlan: 'Voz',
+        amount: 30000,
+        taxes: 0.19,
+        image: "/public/images/plan1.png"
+      },
+      {
+        name: "Plan 10GB",
+        description: "descripción del segundo plan de 10GB",
+        amount: 50000,
+        tipoPlan: 'Voz y Datos',
+        taxes: 0.19,
+        image: "/public/images/plan2.png"
+      },
+      {
+        name: "Plan Ilimitado",
+        description: "descripción del tercer plan, ilimitado",
+        amount: 140000,
+        tipoPlan: 'Voz',
+        taxes: 0.19,
+        image: "/public/images/plan3.png"
       }
     ]
   }
