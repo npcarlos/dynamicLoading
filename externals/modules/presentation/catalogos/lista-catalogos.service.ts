@@ -1,12 +1,12 @@
 import { Injectable } from '@angular/core';
 import { TipoCatalogoItem } from 'src/app/catalogo-item';
-import { CatalogoPlanesComponent } from 'src/app/modules/ventas-vistas/catalogo-planes/vista-catalogo-planes/catalogo-planes.component';
+import { CatalogoPlanesRenderComponent } from 'src/app/modules/ventas-vistas/catalogo-planes/vista-catalogo-planes/catalogo-planes-render.component';
 import { ItemPlanComponent } from 'src/app/modules/visual-components/item-plan/item-plan.component';
-import { CatalogoEquiposComponent } from 'src/app/modules/ventas-vistas/catalogo-equipos/vista-catalogo-equipos/catalogo-equipos.component';
+import { CatalogoEquiposRenderComponent } from 'src/app/modules/ventas-vistas/catalogo-equipos/vista-catalogo-equipos/catalogo-equipos-render.component';
 import { ItemEquipoComponent } from 'src/app/modules/visual-components/item-equipo/item-equipo.component';
-import { CatalogoTecnologiasComponent } from 'src/app/modules/ventas-vistas/catalogo-tecnologias/catalogo-tecnologias.component';
+import { CatalogoTecnologiasRenderComponent } from 'src/app/modules/ventas-vistas/catalogo-tecnologias/catalogo-tecnologias-render.component';
 import { ItemTecnologiaComponent } from 'src/app/modules/visual-components/item-tecnologia/item-tecnologia.component';
-import { CatalogoAudioComponent } from 'src/app/modules/ventas-vistas/catalogo-audio/catalogo-audio.component';
+import { CatalogoAudioRenderComponent } from 'src/app/modules/ventas-vistas/catalogo-audio/catalogo-audio-render.component';
 import { ItemAudioComponent } from 'src/app/modules/visual-components/item-audio/item-tecnologia.component';
 
 @Injectable({
@@ -19,8 +19,8 @@ export class ListaCatalogosService {
   // Constructor
   constructor() {
     const parametrosPlanes = {
-      name: 'Planes',
-      visualCatalogComponent: CatalogoPlanesComponent,
+      catalogName: 'Planes',
+      visualCatalogComponent: CatalogoPlanesRenderComponent,
       visualItemComponent: ItemPlanComponent,
       filtros: [],
       informacionOpcional:{}
@@ -28,8 +28,8 @@ export class ListaCatalogosService {
 
     
     const parametrosEquipos = {
-      name: 'Equipos',
-      visualCatalogComponent: CatalogoEquiposComponent,
+      catalogName: 'Equipos',
+      visualCatalogComponent: CatalogoEquiposRenderComponent,
       visualItemComponent: ItemEquipoComponent,
       filtros: [],
       informacionOpcional:{}
@@ -37,8 +37,8 @@ export class ListaCatalogosService {
 
     
     const parametrosTecnologia = {
-      name: 'Tecnologías',
-      visualCatalogComponent: CatalogoTecnologiasComponent,
+      catalogName: 'Tecnologías',
+      visualCatalogComponent: CatalogoTecnologiasRenderComponent,
       visualItemComponent: ItemTecnologiaComponent,
       filtros: [],
       informacionOpcional:{}
@@ -46,8 +46,8 @@ export class ListaCatalogosService {
 
     
     const parametrosAudio = {
-      name: 'Audio',
-      visualCatalogComponent: CatalogoAudioComponent,
+      catalogName: 'Audio',
+      visualCatalogComponent: CatalogoAudioRenderComponent,
       visualItemComponent: ItemAudioComponent,
       filtros: [],
       informacionOpcional:{

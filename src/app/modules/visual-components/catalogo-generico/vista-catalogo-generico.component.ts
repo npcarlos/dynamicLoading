@@ -2,7 +2,7 @@ import { Component, Input, OnInit, ViewChild, ComponentFactoryResolver, OnDestro
 
 import { CatalogoDirective } from '../../../catalogo.directive';
 import { TipoCatalogoItem }      from '../../../catalogo-item';
-import { VisualCatalogoTemplate } from '../../../catalogo.component';
+import { CatalogoRenderTemplate } from '../../../catalogo.component';
 
 @Component({
   selector: 'app-catalogo-banner',
@@ -42,7 +42,7 @@ export class VistaCatalogoGenericoComponent implements OnInit {
 
     const componentRef = viewContainerRef.createComponent(componentFactory);
     
-    (<VisualCatalogoTemplate>componentRef.instance).parametrosCatalogo = parametrosCatalogo;
+    (<CatalogoRenderTemplate>componentRef.instance).parametrosCatalogo = parametrosCatalogo;
   }
 
 }

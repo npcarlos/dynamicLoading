@@ -1,3 +1,3 @@
-export interface VisualCatalogoTemplate {
+export interface CatalogoRenderTemplate {
   parametrosCatalogo: any;
 }

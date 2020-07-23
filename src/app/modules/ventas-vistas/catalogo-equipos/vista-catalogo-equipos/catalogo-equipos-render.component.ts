@@ -1,12 +1,11 @@
 import { Component, Input, OnInit }  from '@angular/core';
-
-import { VisualCatalogoTemplate } from '../../../catalogo.component';
+import { CatalogoRenderTemplate }       from '../../../../catalogo.component';
 import { CatalogoService } from '~modules/business/dummy/catalogo.service';
 
 @Component({
-  templateUrl: './catalogo-tecnologias.component.html'
+  templateUrl: './catalogo-equipos-render.component.html'
 })
-export class CatalogoTecnologiasComponent implements VisualCatalogoTemplate, OnInit {
+export class CatalogoEquiposRenderComponent implements CatalogoRenderTemplate, OnInit {
   @Input() parametrosCatalogo: any;
   listaItems: any[];
   visualItemRender: any;
@@ -18,7 +17,7 @@ export class CatalogoTecnologiasComponent implements VisualCatalogoTemplate, OnI
   }
 
   inicializarFuentesDeDatos(){
-    this.listaItems = this.dummyService.getTecnologias();
+    this.listaItems = this.dummyService.getEquipos();
   }
 }
 

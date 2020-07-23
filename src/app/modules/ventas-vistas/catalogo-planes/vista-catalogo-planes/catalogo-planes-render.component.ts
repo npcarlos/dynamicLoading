@@ -1,14 +1,12 @@
 import { Component, Input } from '@angular/core';
 
-import { VisualCatalogoTemplate }      from '../../../../catalogo.component';
-import { PlanModel, TipoCatalogoModel } from 'externals/libraries/domain/fullstack/catalogo';
-import { ItemPlanComponent } from 'src/app/modules/visual-components/item-plan/item-plan.component';
+import { CatalogoRenderTemplate }      from '../../../../catalogo.component';
 import { CatalogoService } from '~modules/business/dummy/catalogo.service';
 
 @Component({
-  templateUrl: './catalogo-planes.component.html',
+  templateUrl: './catalogo-planes-render.component.html',
 })
-export class CatalogoPlanesComponent implements VisualCatalogoTemplate {
+export class CatalogoPlanesRenderComponent implements CatalogoRenderTemplate {
   @Input() parametrosCatalogo: any;
   listaItems: any[];
   visualItemRender: any;
