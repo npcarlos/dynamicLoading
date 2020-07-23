@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
-import { CatalogoService }         from '../../externals/modules/business/dummy/catalogo.service';
 import { TipoCatalogoItem }            from './catalogo-item';
 import { TipoCatalogoModel } from 'externals/libraries/domain/fullstack/catalogo';
+import { ListaCatalogosService } from '~modules/presentation/catalogos';
 
 @Component({
   selector: 'app-root',
@@ -16,7 +16,7 @@ export class AppComponent implements OnInit {
 
   catalogoSeleccionado: TipoCatalogoItem
 
-  constructor(private catalogoService: CatalogoService) {}
+  constructor(private catalogoService: ListaCatalogosService) {}
 
   ngOnInit() {
     this.catalogos = this.catalogoService.getTiposCatalogo();
