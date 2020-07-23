@@ -42,6 +42,9 @@ export class GrillaComponent implements OnInit {
 
   loadComponent() {
     const { listaItems, visualItemComponent } = this.parametrosCatalogo
+
+    console.log('*********************************')
+    console.log(JSON.stringify(listaItems))
     for (const item of listaItems) {
   
       const componentFactory = this.componentFactoryResolver.resolveComponentFactory(visualItemComponent);

@@ -21,7 +21,9 @@ export class ItemEquipoComponent implements ItemTemplate {
 
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    
+  }
 
   // mostrar() {
   //   this.onMostrar.emit();

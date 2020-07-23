@@ -22,7 +22,6 @@ export class ItemPlanComponent implements ItemTemplate {
   paginaActual: number = 1;
 
   ngOnInit(): void {
-    console.log(this.data)
   }
   mostrar() {
     this.onMostrar.emit();

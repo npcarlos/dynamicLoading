@@ -8,6 +8,7 @@ import { TipoCatalogoItem  } from '../../../../src/app/catalogo-item';
 import { TipoCatalogoModel, PlanModel, PlanTemplate } from '../../../libraries/domain/fullstack/catalogo'
 import { ItemPlanComponent } from 'src/app/modules/visual-components/item-plan/item-plan.component';
 import { ItemEquipoComponent } from 'src/app/modules/visual-components/item-equipo/item-equipo.component';
+import { CatalogoTecnologiasComponent } from 'src/app/modules/ventas-vistas/catalogo-tecnologias/catalogo-tecnologias.component';
 
 @Injectable()
 export class CatalogoService {
@@ -59,6 +60,30 @@ export class CatalogoService {
     }
   ]
 
+  
+  public tecnologiasDummy = [
+    {
+      name: "Computador portátil",
+      description: "Computador muy chévere y rápido",
+      amount: 300000,
+      taxes: 0.19,
+      image: "/public/images/portátil1.png"
+    },
+    {
+      name: "Consola videojuegos",
+      description: "La mejor consola del mundo mundial",
+      amount: 700000,
+      taxes: 0.19,
+      image: "/public/images/Consola2.png"
+    },
+    {
+      name: "TV Gigante",
+      description: "Un TV súper gigante para ser feliz",
+      amount: 1300000,
+      taxes: 0.19,
+      image: "/public/images/celular3.png"
+    }
+  ]
 
   getTiposCatalogo() {
     const parametrosPlanes = {
@@ -79,12 +104,23 @@ export class CatalogoService {
       filtros: [],
       informacionOpcional:{}
     }
+
+    
+    const parametrosTecnologia = {
+      name: 'Tecnologías',
+      listaItems: this.tecnologiasDummy,
+      visualCatalogComponent: CatalogoTecnologiasComponent,
+      visualItemComponent: ItemEquipoComponent,
+      filtros: [],
+      informacionOpcional:{}
+    }
     return [
       // TODO En vez de enviar planesDummy enviar las funciones que piden los datos actualizados.
       // TODO Revisar el nombre TipoCatalogoItem
       
       new TipoCatalogoItem(parametrosPlanes),
       new TipoCatalogoItem(parametrosEquipos),
+      new TipoCatalogoItem(parametrosTecnologia),
     ];
   }
 
