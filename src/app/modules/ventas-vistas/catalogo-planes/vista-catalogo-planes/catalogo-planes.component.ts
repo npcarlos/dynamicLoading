@@ -15,8 +15,12 @@ export class CatalogoPlanesComponent implements VisualCatalogoTemplate {
   constructor(public dummyService:CatalogoService ){
   }
   ngOnInit(){
-    this.listaItems = this.dummyService.getPlanes();
+    this.inicializarFuentesDeDatos();
     this.visualItemRender = this.parametrosCatalogo.visualItemComponent;
+  }
+
+  inicializarFuentesDeDatos(){
+    this.listaItems = this.dummyService.getPlanes();
   }
 }
 

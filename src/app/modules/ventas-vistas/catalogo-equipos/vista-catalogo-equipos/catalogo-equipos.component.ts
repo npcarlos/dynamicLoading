@@ -17,8 +17,12 @@ export class CatalogoEquiposComponent implements VisualCatalogoTemplate, OnInit 
   constructor(public dummyService:CatalogoService ){
   }
   ngOnInit(){
-    this.listaItems = this.dummyService.getEquipos();
+    this.inicializarFuentesDeDatos();
     this.visualItemRender = this.parametrosCatalogo.visualItemComponent;
+  }
+
+  inicializarFuentesDeDatos(){
+    this.listaItems = this.dummyService.getEquipos();
   }
 }
 
