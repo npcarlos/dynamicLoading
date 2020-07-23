@@ -1,20 +1,21 @@
 import { Component, Input, OnInit }  from '@angular/core';
 
-import { CatalogoTemplate } from '../../../catalogo.component';
+import { VisualCatalogoTemplate } from '../../../catalogo.component';
+import { CatalogoService } from '~modules/business/dummy/catalogo.service';
 
 @Component({
   templateUrl: './catalogo-tecnologias.component.html'
 })
-export class CatalogoTecnologiasComponent implements CatalogoTemplate, OnInit {
+export class CatalogoTecnologiasComponent implements VisualCatalogoTemplate, OnInit {
   @Input() parametrosCatalogo: any;
-  constructor(){
+  listaItems: any[];
+  visualItemRender: any;
+  constructor(public dummyService:CatalogoService ){
   }
-  ngOnInit()
-  {
-    
-    console.log(this.parametrosCatalogo)
+  ngOnInit(){
+    this.listaItems = this.dummyService.getTecnologias();
+    this.visualItemRender = this.parametrosCatalogo.visualItemComponent;
   }
-  
 }
 
 

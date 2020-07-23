@@ -2,13 +2,13 @@ import { Component, Input, OnInit, ViewChild, ComponentFactoryResolver, OnDestro
 
 import { CatalogoDirective } from '../../../catalogo.directive';
 import { TipoCatalogoItem }      from '../../../catalogo-item';
-import { CatalogoTemplate } from '../../../catalogo.component';
+import { VisualCatalogoTemplate } from '../../../catalogo.component';
 
 @Component({
   selector: 'app-catalogo-banner',
   templateUrl: './vista-catalogos-banner.component.html',
 })
-export class VistaCatalogosBannerComponent implements OnInit {
+export class VistaCatalogoGenericoComponent implements OnInit {
   // @Input() catalogos: TipoCatalogoItem[];
   // @Input() indexCatalogoActual: number;
 
@@ -42,7 +42,7 @@ export class VistaCatalogosBannerComponent implements OnInit {
 
     const componentRef = viewContainerRef.createComponent(componentFactory);
     
-    (<CatalogoTemplate>componentRef.instance).parametrosCatalogo = parametrosCatalogo;
+    (<VisualCatalogoTemplate>componentRef.instance).parametrosCatalogo = parametrosCatalogo;
   }
 
 }

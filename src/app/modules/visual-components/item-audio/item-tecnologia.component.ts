@@ -6,7 +6,7 @@ import { ItemTemplate } from '../item.interface';
   templateUrl: './item-tecnologia.component.html',
   styleUrls: ['./item-tecnologia.component.css']
 })
-export class ItemTecnologiaComponent implements OnInit, ItemTemplate {
+export class ItemAudioComponent implements OnInit, ItemTemplate {
   @Input() data: any;
   
   constructor() { }

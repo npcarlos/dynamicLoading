@@ -11,6 +11,9 @@ import { TipoCatalogoModel } from '~libraries/domain/fullstack/catalogo';
   styleUrls: ['./grilla.component.scss']
 })
 export class GrillaComponent implements OnInit {
+  
+  @Input() listaItems: any;
+  @Input() visualItemRender: any;
 
   @Output() onMostrar = new EventEmitter<any>();
   @Output() onAgregar = new EventEmitter<any>();
@@ -18,7 +21,6 @@ export class GrillaComponent implements OnInit {
   //@Input() itemsCatalogoInitial: any[];
   @Input() opcionItem: string;
 
-  @Input() parametrosCatalogo: any;
 
   public showFilters = false;
   searchText = '';
@@ -41,13 +43,10 @@ export class GrillaComponent implements OnInit {
   }
 
   loadComponent() {
-    const { listaItems, visualItemComponent } = this.parametrosCatalogo
-
-    console.log('*********************************')
-    console.log(JSON.stringify(listaItems))
-    for (const item of listaItems) {
+    
+    for (const item of this.listaItems) {
   
-      const componentFactory = this.componentFactoryResolver.resolveComponentFactory(visualItemComponent);
+      const componentFactory = this.componentFactoryResolver.resolveComponentFactory(this.visualItemRender);
 
       const viewContainerRef = this.grillaHost.viewContainerRef;
 
@@ -57,8 +56,6 @@ export class GrillaComponent implements OnInit {
     
   }
   // }
-
-
 
   // onBusquedaCambio() {
   //   this.paginaActual = 1;
