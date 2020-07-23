@@ -13,6 +13,7 @@ import { ItemDirective } from './modules/visual-components/item.directive';
 import { CatalogoService }            from '../../externals/modules/business/dummy/catalogo.service';
 import { CatalogoPlanesRepoModule } from './modules/ventas-vistas/catalogo-planes-repo/catalogo-planes.module';
 import { CatalogoTecnologiasComponent } from './modules/ventas-vistas/catalogo-tecnologias/catalogo-tecnologias.component';
+import { ItemTecnologiaComponent } from './modules/visual-components/item-tecnologia/item-tecnologia.component';
 
 @NgModule({
   imports: [ BrowserModule, FormsModule ],
@@ -27,6 +28,7 @@ import { CatalogoTecnologiasComponent } from './modules/ventas-vistas/catalogo-t
                   ItemPlanComponent,
                   GrillaComponent,
                   ItemDirective,
+                  ItemTecnologiaComponent
                   ],
   entryComponents: [ VistaCatalogoPlanesComponent, EquiposComponent, CatalogoTecnologiasComponent],
   bootstrap: [ AppComponent ]
