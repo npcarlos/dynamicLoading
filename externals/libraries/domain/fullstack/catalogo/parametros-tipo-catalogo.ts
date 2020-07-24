@@ -1,13 +1,15 @@
 import { CatalogoRenderTemplate } from '../../../../../src/app/catalogo.component';
 import { ItemTemplate } from '../../../../../src/app/modules/visual-components/item.interface';
 import { FiltroTemplate } from '~libraries/domain/common/filtro';
-import { Component } from '@angular/core';
+import { Type } from '@angular/core';
 
 export interface ParametrosTipoCatalogo{
+
+    // TODO Verificar Tipos
     nombreCatalogo: string,
-    // TODO verificar tipos de datos CatalogoTemplate
-    // listaItems: any,
-    visualCatalogComponent?: CatalogoRenderTemplate,
-    visualItemComponent?: ItemTemplate,
+    // visualCatalogComponent: CatalogoRenderTemplate,
+    visualCatalogComponent: any,
+    // visualItemComponent: ItemTemplate,
+    visualItemComponent: any,
     filtros: FiltroTemplate[],
 }
