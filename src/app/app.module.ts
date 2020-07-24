@@ -15,6 +15,8 @@ import { CatalogoTecnologiasRenderComponent } from './modules/ventas-vistas/cata
 import { ItemTecnologiaComponent } from './modules/visual-components/item-tecnologia/item-tecnologia.component';
 import { CatalogoAudioRenderComponent } from './modules/ventas-vistas/catalogo-audio/catalogo-audio-render.component';
 import { ItemAudioComponent } from './modules/visual-components/item-audio/item-tecnologia.component';
+import { ListaCatalogosModule} from '~modules/presentation/catalogos/lista-catalogos.module';
+import { CatalogoVideoRenderComponent } from './modules/ventas-vistas/catalogo-video/catalogo-video-render.component';
 
 @NgModule({
   imports: [ BrowserModule, FormsModule ],
@@ -25,6 +27,7 @@ import { ItemAudioComponent } from './modules/visual-components/item-audio/item-
                   CatalogoEquiposRenderComponent,
                   CatalogoTecnologiasRenderComponent,
                   CatalogoAudioRenderComponent,
+                  CatalogoVideoRenderComponent,
                   CatalogoDirective,
                   ItemEquipoComponent,
                   ItemPlanComponent,
@@ -32,8 +35,9 @@ import { ItemAudioComponent } from './modules/visual-components/item-audio/item-
                   ItemAudioComponent,
                   GrillaComponent,
                   ItemDirective,
+                  // ListaCatalogosModule
                   ],
-  entryComponents: [ CatalogoPlanesRenderComponent, CatalogoEquiposRenderComponent, CatalogoTecnologiasRenderComponent, CatalogoAudioRenderComponent],
+  entryComponents: [ ],
   bootstrap: [ AppComponent ]
 })
 export class AppModule {

@@ -8,6 +8,8 @@ import { CatalogoTecnologiasRenderComponent } from 'src/app/modules/ventas-vista
 import { ItemTecnologiaComponent } from 'src/app/modules/visual-components/item-tecnologia/item-tecnologia.component';
 import { CatalogoAudioRenderComponent } from 'src/app/modules/ventas-vistas/catalogo-audio/catalogo-audio-render.component';
 import { ItemAudioComponent } from 'src/app/modules/visual-components/item-audio/item-tecnologia.component';
+import { TipoCatalogoModel, ParametrosTipoCatalogo } from '~libraries/domain/fullstack/catalogo';
+import { CatalogoVideoRenderComponent } from 'src/app/modules/ventas-vistas/catalogo-video/catalogo-video-render.component';
 
 @Injectable({
   providedIn: 'root',
@@ -18,7 +20,7 @@ export class ListaCatalogosService {
 
   // Constructor
   constructor() {
-    const parametrosPlanes = {
+    const parametrosPlanes: ParametrosTipoCatalogo= {
       nombreCatalogo: 'Planes',
       visualCatalogComponent: CatalogoPlanesRenderComponent,
       visualItemComponent: ItemPlanComponent,
@@ -26,7 +28,7 @@ export class ListaCatalogosService {
     }
 
     
-    const parametrosEquipos = {
+    const parametrosEquipos: ParametrosTipoCatalogo= {
       nombreCatalogo: 'Equipos',
       visualCatalogComponent: CatalogoEquiposRenderComponent,
       visualItemComponent: ItemEquipoComponent,
@@ -34,7 +36,7 @@ export class ListaCatalogosService {
     }
 
     
-    const parametrosTecnologia = {
+    const parametrosTecnologia: ParametrosTipoCatalogo= {
       nombreCatalogo: 'Tecnologías',
       visualCatalogComponent: CatalogoTecnologiasRenderComponent,
       visualItemComponent: ItemTecnologiaComponent,
@@ -42,7 +44,7 @@ export class ListaCatalogosService {
     }
 
     
-    const parametrosAudio = {
+    const parametrosAudio: ParametrosTipoCatalogo = {
       nombreCatalogo: 'Audio',
       visualCatalogComponent: CatalogoAudioRenderComponent,
       visualItemComponent: ItemAudioComponent,
@@ -54,6 +56,7 @@ export class ListaCatalogosService {
       //   }
       // }
     }
+    
     this.tiposCatalogo =  [
       // TODO Revisar el nombre TipoCatalogoItem
       
@@ -61,6 +64,12 @@ export class ListaCatalogosService {
       new TipoCatalogoVista(parametrosEquipos),
       new TipoCatalogoVista(parametrosTecnologia),
       new TipoCatalogoVista(parametrosAudio),
+      new TipoCatalogoVista({
+        nombreCatalogo: 'Video',
+        visualCatalogComponent: CatalogoVideoRenderComponent,
+        visualItemComponent: ItemAudioComponent,
+        filtros: []
+      })
     ];
   }
   
