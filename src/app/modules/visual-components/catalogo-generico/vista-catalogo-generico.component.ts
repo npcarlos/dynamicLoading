@@ -1,8 +1,9 @@
 import { Component, Input, OnInit, ViewChild, ComponentFactoryResolver, OnDestroy } from '@angular/core';
 
-import { CatalogoDirective } from '../../../catalogo.directive';
-import { TipoCatalogoVista }      from '../../../catalogo-item';
-import { CatalogoRenderTemplate } from '../../../catalogo.component';
+
+import { TipoCatalogoVista }      from './catalogo-item';
+import { CatalogoDirective } from './catalogo.directive';
+import { CatalogoRenderTemplate } from './catalogo.component';
 
 @Component({
   selector: 'app-catalogo-banner',

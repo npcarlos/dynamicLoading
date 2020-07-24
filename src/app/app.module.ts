@@ -5,7 +5,6 @@ import { AppComponent }         from './app.component';
 import { CatalogoPlanesRenderComponent }   from './modules/ventas-vistas/catalogo-planes/vista-catalogo-planes/catalogo-planes-render.component';
 import { VistaCatalogoGenericoComponent }    from './modules/visual-components/catalogo-generico/vista-catalogo-generico.component';
 import { CatalogoEquiposRenderComponent } from './modules/ventas-vistas/catalogo-equipos/vista-catalogo-equipos/catalogo-equipos-render.component';
-import { CatalogoDirective }          from './catalogo.directive';
 import { GrillaComponent } from './modules/visual-components/grilla/grilla.component';
 import { ItemEquipoComponent } from './modules/visual-components/item-equipo/item-equipo.component';
 import { ItemPlanComponent } from './modules/visual-components/item-plan/item-plan.component';
@@ -17,6 +16,7 @@ import { CatalogoAudioRenderComponent } from './modules/ventas-vistas/catalogo-a
 import { ItemAudioComponent } from './modules/visual-components/item-audio/item-tecnologia.component';
 import { ListaCatalogosModule} from '~modules/presentation/catalogos/lista-catalogos.module';
 import { CatalogoVideoRenderComponent } from './modules/ventas-vistas/catalogo-video/catalogo-video-render.component';
+import { CatalogoDirective } from './modules/visual-components/catalogo-generico/catalogo.directive';
 
 @NgModule({
   imports: [ BrowserModule, FormsModule ],

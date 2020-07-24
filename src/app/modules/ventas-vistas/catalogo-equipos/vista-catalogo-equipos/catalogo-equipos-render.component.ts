@@ -1,6 +1,6 @@
 import { Component, Input, OnInit }  from '@angular/core';
-import { CatalogoRenderTemplate }       from '../../../../catalogo.component';
 import { CatalogoService } from '~modules/business/dummy/catalogo.service';
+import { CatalogoRenderTemplate } from 'src/app/modules/visual-components/catalogo-generico/catalogo.component';
 
 @Component({
   templateUrl: './catalogo-equipos-render.component.html'

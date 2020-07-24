@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-import { TipoCatalogoVista } from 'src/app/catalogo-item';
 import { CatalogoPlanesRenderComponent } from 'src/app/modules/ventas-vistas/catalogo-planes/vista-catalogo-planes/catalogo-planes-render.component';
 import { ItemPlanComponent } from 'src/app/modules/visual-components/item-plan/item-plan.component';
 import { CatalogoEquiposRenderComponent } from 'src/app/modules/ventas-vistas/catalogo-equipos/vista-catalogo-equipos/catalogo-equipos-render.component';
@@ -10,6 +9,7 @@ import { CatalogoAudioRenderComponent } from 'src/app/modules/ventas-vistas/cata
 import { ItemAudioComponent } from 'src/app/modules/visual-components/item-audio/item-tecnologia.component';
 import { TipoCatalogoModel, ParametrosTipoCatalogo } from '~libraries/domain/fullstack/catalogo';
 import { CatalogoVideoRenderComponent } from 'src/app/modules/ventas-vistas/catalogo-video/catalogo-video-render.component';
+import { TipoCatalogoVista } from 'src/app/modules/visual-components/catalogo-generico/catalogo-item';
 
 @Injectable({
   providedIn: 'root',
