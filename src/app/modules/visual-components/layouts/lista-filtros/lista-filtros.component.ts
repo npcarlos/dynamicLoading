@@ -1,6 +1,6 @@
 import { Component, OnInit, Input, Output, EventEmitter, ViewChild, ComponentFactoryResolver} from '@angular/core';
-import { ItemTemplate } from '../../item.interface';
-import { ItemDirective } from '../../item.directive';
+import { ItemTemplate } from '../../elementos/item.interface';
+import { ItemDirective } from '../../elementos/item.directive';
 
 
 @Component({
@@ -8,7 +8,7 @@ import { ItemDirective } from '../../item.directive';
   templateUrl: './lista-filtros.component.html',
   styleUrls: ['./lista-filtros.component.scss']
 })
-export class GrillaComponent implements OnInit {
+export class ListaFiltrosComponent implements OnInit {
   
   @Input() listaItems: any;
   @Input() visualItemRender: any;

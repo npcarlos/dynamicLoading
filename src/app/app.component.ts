@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { TipoCatalogoModel } from 'externals/libraries/domain/fullstack/catalogo';
 import { ListaCatalogosService } from '~modules/presentation/catalogos';
-import { TipoCatalogoVista } from './modules/visual-components/catalogo-generico/catalogo-item';
+import { TipoCatalogoVista } from './modules/visual-components/elementos/catalogo-generico/catalogo-item';
 
 @Component({
   selector: 'app-root',

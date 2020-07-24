@@ -1,6 +1,3 @@
-import { Type, Component } from '@angular/core';
-import { CatalogoAudioRenderComponent } from '../../ventas-vistas/catalogo-audio/catalogo-audio-render.component';
-import { ItemAudioComponent } from '../item-audio/item-tecnologia.component';
 import { CatalogoRenderTemplate } from './catalogo.component';
 import { ItemTemplate } from '../item.interface';
 import { FiltroTemplate } from '~libraries/domain/common/filtro';
