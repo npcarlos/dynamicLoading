@@ -8,6 +8,8 @@ import { CatalogoTecnologiasRenderComponent } from 'src/app/modules/ventas-vista
 import { ItemTecnologiaComponent } from 'src/app/modules/visual-components/item-tecnologia/item-tecnologia.component';
 import { CatalogoAudioRenderComponent } from 'src/app/modules/ventas-vistas/catalogo-audio/catalogo-audio-render.component';
 import { ItemAudioComponent } from 'src/app/modules/visual-components/item-audio/item-tecnologia.component';
+import { TipoCatalogoModel } from '~libraries/domain/fullstack/catalogo';
+import { CatalogoVideoRenderComponent } from 'src/app/modules/ventas-vistas/catalogo-video/catalogo-video-render.component';
 
 @Injectable({
   providedIn: 'root',
@@ -57,6 +59,7 @@ export class ListaCatalogosService {
         }
       }
     }
+    
     this.tiposCatalogo =  [
       // TODO Revisar el nombre TipoCatalogoItem
       
@@ -64,6 +67,12 @@ export class ListaCatalogosService {
       new TipoCatalogoItem(parametrosEquipos),
       new TipoCatalogoItem(parametrosTecnologia),
       new TipoCatalogoItem(parametrosAudio),
+      new TipoCatalogoItem({
+        catalogName: 'Video',
+        visualCatalogComponent: CatalogoVideoRenderComponent,
+        visualItemComponent: ItemAudioComponent,
+        filtros: []
+      })
     ];
   }
   

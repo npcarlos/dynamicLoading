@@ -1,16 +1,7 @@
 <div>
 
-  <button class="btn m-2" (click)="actualizarCatalogo(0)">
-    Planes
-  </button>
-  <button class="btn m-2" (click)="actualizarCatalogo(1)">
-    Equipos
-  </button>
-  <button class="btn m-2" (click)="actualizarCatalogo(2)">
-    Tecnologías
-  </button>
-  <button class="btn m-2" (click)="actualizarCatalogo(3)">
-    Audio
+  <button *ngFor="let tipoCatalogo of catalogos; let i = index" class="btn m-2" (click)="actualizarCatalogo(i)">
+    {{tipoCatalogo.nombreTipoCatalogo}}
   </button>
   
     <app-catalogo-banner [catalogoSeleccionado]="catalogoSeleccionado"></app-catalogo-banner>

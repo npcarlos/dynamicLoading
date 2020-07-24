@@ -11,7 +11,6 @@ import { ListaCatalogosService } from '~modules/presentation/catalogos';
 export class AppComponent implements OnInit {
   catalogos: TipoCatalogoItem[];
   tiposCatalogos: TipoCatalogoModel[];
-  interval: any;
 
 
   catalogoSeleccionado: TipoCatalogoItem
