@@ -1,14 +1,12 @@
 import { Component, OnInit, Input, Output, EventEmitter, ViewChild, ComponentFactoryResolver} from '@angular/core';
-import { ItemComponent } from '../item';
-import { ItemTemplate } from '../item.interface';
-import { ItemDirective } from '../item.directive';
-import { TipoCatalogoModel } from '~libraries/domain/fullstack/catalogo';
+import { ItemTemplate } from '../../item.interface';
+import { ItemDirective } from '../../item.directive';
 
 
 @Component({
-  selector: 'app-grilla',
-  templateUrl: './grilla.component.html',
-  styleUrls: ['./grilla.component.scss']
+  selector: 'app-lista-filtros',
+  templateUrl: './lista-filtros.component.html',
+  styleUrls: ['./lista-filtros.component.scss']
 })
 export class GrillaComponent implements OnInit {
   
