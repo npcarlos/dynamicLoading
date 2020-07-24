@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { TipoCatalogoItem }            from './catalogo-item';
+import { TipoCatalogoVista }            from './catalogo-item';
 import { TipoCatalogoModel } from 'externals/libraries/domain/fullstack/catalogo';
 import { ListaCatalogosService } from '~modules/presentation/catalogos';
 
@@ -9,12 +9,12 @@ import { ListaCatalogosService } from '~modules/presentation/catalogos';
   templateUrl: './app.component.html'
 })
 export class AppComponent implements OnInit {
-  catalogos: TipoCatalogoItem[];
+  catalogos: TipoCatalogoVista[];
   tiposCatalogos: TipoCatalogoModel[];
   interval: any;
 
 
-  catalogoSeleccionado: TipoCatalogoItem
+  catalogoSeleccionado: TipoCatalogoVista
 
   constructor(private catalogoService: ListaCatalogosService) {}
 

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { TipoCatalogoItem } from 'src/app/catalogo-item';
+import { TipoCatalogoVista } from 'src/app/catalogo-item';
 import { CatalogoPlanesRenderComponent } from 'src/app/modules/ventas-vistas/catalogo-planes/vista-catalogo-planes/catalogo-planes-render.component';
 import { ItemPlanComponent } from 'src/app/modules/visual-components/item-plan/item-plan.component';
 import { CatalogoEquiposRenderComponent } from 'src/app/modules/ventas-vistas/catalogo-equipos/vista-catalogo-equipos/catalogo-equipos-render.component';
@@ -19,51 +19,48 @@ export class ListaCatalogosService {
   // Constructor
   constructor() {
     const parametrosPlanes = {
-      catalogName: 'Planes',
+      nombreCatalogo: 'Planes',
       visualCatalogComponent: CatalogoPlanesRenderComponent,
       visualItemComponent: ItemPlanComponent,
       filtros: [],
-      informacionOpcional:{}
     }
 
     
     const parametrosEquipos = {
-      catalogName: 'Equipos',
+      nombreCatalogo: 'Equipos',
       visualCatalogComponent: CatalogoEquiposRenderComponent,
       visualItemComponent: ItemEquipoComponent,
       filtros: [],
-      informacionOpcional:{}
     }
 
     
     const parametrosTecnologia = {
-      catalogName: 'Tecnologías',
+      nombreCatalogo: 'Tecnologías',
       visualCatalogComponent: CatalogoTecnologiasRenderComponent,
       visualItemComponent: ItemTecnologiaComponent,
       filtros: [],
-      informacionOpcional:{}
     }
 
     
     const parametrosAudio = {
-      catalogName: 'Audio',
+      nombreCatalogo: 'Audio',
       visualCatalogComponent: CatalogoAudioRenderComponent,
       visualItemComponent: ItemAudioComponent,
-      filtros: [],
-      informacionOpcional:{
-        promocionesIVA: {
-          texto:"19% OFF",
-          banner: "iva.png"
-        }
-      }
+      filtros: []
+      // informacionOpcional:{
+      //   promocionesIVA: {
+      //     texto:"19% OFF",
+      //     banner: "iva.png"
+      //   }
+      // }
     }
     this.tiposCatalogo =  [
       // TODO Revisar el nombre TipoCatalogoItem
       
-      new TipoCatalogoItem(parametrosPlanes),
-      new TipoCatalogoItem(parametrosEquipos),
-      new TipoCatalogoItem(parametrosTecnologia),
-      new TipoCatalogoItem(parametrosAudio),
+      new TipoCatalogoVista(parametrosPlanes),
+      new TipoCatalogoVista(parametrosEquipos),
+      new TipoCatalogoVista(parametrosTecnologia),
+      new TipoCatalogoVista(parametrosAudio),
     ];
   }
   

@@ -3,14 +3,14 @@ import { Injectable } from '@angular/core';
 
 import { CatalogoPlanesRenderComponent } from '../../../../src/app/modules/ventas-vistas/catalogo-planes/vista-catalogo-planes/catalogo-planes-render.component';
 import { CatalogoEquiposRenderComponent } from '../../../../src/app/modules/ventas-vistas/catalogo-equipos/vista-catalogo-equipos/catalogo-equipos-render.component';
-import { TipoCatalogoItem  } from '../../../../src/app/catalogo-item';
+import { TipoCatalogoVista  } from '../../../../src/app/catalogo-item';
 
 import { TipoCatalogoModel, PlanModel, PlanTemplate } from '../../../libraries/domain/fullstack/catalogo'
 import { ItemPlanComponent } from 'src/app/modules/visual-components/item-plan/item-plan.component';
 import { ItemEquipoComponent } from 'src/app/modules/visual-components/item-equipo/item-equipo.component';
 import { CatalogoTecnologiasRenderComponent } from 'src/app/modules/ventas-vistas/catalogo-tecnologias/catalogo-tecnologias-render.component';
 import { ItemTecnologiaComponent } from 'src/app/modules/visual-components/item-tecnologia/item-tecnologia.component';
-import { ParametrosTipoCatalogo } from 'src/app/parametros-tipo-catalogo';
+import { ParametrosTipoCatalogo } from '~libraries/domain/fullstack/catalogo/parametros-tipo-catalogo';
 import { CatalogoAudioRenderComponent } from 'src/app/modules/ventas-vistas/catalogo-audio/catalogo-audio-render.component';
 import { ItemAudioComponent } from 'src/app/modules/visual-components/item-audio/item-tecnologia.component';
 import { Store } from '@ngrx/store';

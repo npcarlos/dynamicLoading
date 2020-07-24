@@ -1,7 +1,7 @@
 import { Component, Input, OnInit, ViewChild, ComponentFactoryResolver, OnDestroy } from '@angular/core';
 
 import { CatalogoDirective } from '../../../catalogo.directive';
-import { TipoCatalogoItem }      from '../../../catalogo-item';
+import { TipoCatalogoVista }      from '../../../catalogo-item';
 import { CatalogoRenderTemplate } from '../../../catalogo.component';
 
 @Component({
@@ -12,7 +12,7 @@ export class VistaCatalogoGenericoComponent implements OnInit {
   // @Input() catalogos: TipoCatalogoItem[];
   // @Input() indexCatalogoActual: number;
 
-  @Input() catalogoSeleccionado: TipoCatalogoItem
+  @Input() catalogoSeleccionado: TipoCatalogoVista
 
   @ViewChild(CatalogoDirective, {static: true}) catalogoHost: CatalogoDirective;
   interval: any;
